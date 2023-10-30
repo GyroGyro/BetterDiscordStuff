@@ -27,4 +27,3 @@
 
 ![preview-4](https://maendisease.github.io/Solana/illustrations/preview-4.png)
 
-![preview-5](https://user-images.githubusercontent.com/90428263/183326277-9e38fadc-1c27-495e-9eda-ba92ef4fc776.png)
