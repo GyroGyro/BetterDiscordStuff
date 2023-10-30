@@ -2655,6 +2655,12 @@ code {
   border-bottom: var(--background-secondary-border-a);
 }
 
+.peopleListItem_d14722:first-child {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-top: var(--background-secondary-border-a);
+}
+
 .peopleListItem_d14722 {
   background: var(--background-primary);
   padding: 16px;
