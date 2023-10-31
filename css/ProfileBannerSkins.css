@@ -58,21 +58,6 @@
   fill: none;
 }
 
-.userProfileModalInner__7c87d :where(
-    .wrapper_edb6e0,
-    .avatar__445f3
-) {
-    background: var(--profile-body-background-color);
-    box-shadow: var(--elevation-medium);
-}
-
-.userProfileModalInner__7c87d :where(
-    .avatarHoverTarget__3a360,
-    .avatarHint__8e5b9,
-    .avatar__445f3
-) {
-    padding: 6px;
-
 .accountProfileCard__22589:not(:has(div[style*=image])) {
   background: none;
   box-shadow: var(--elevation-medium);
