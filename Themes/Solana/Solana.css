@@ -2675,6 +2675,12 @@ code {
   border-bottom-right-radius: 8px;
 }
 
+.peopleListItem_d14722.active__6b8ff:first-child,
+.peopleListItem_d14722:first-child:hover {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
 .peopleListItem_d14722.active__6b8ff,
 .peopleListItem_d14722:hover {
   box-shadow: none;
