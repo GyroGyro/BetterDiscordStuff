@@ -58,6 +58,22 @@
   fill: none;
 }
 
+.userProfileModalInner__7c87d :where(
+    .wrapper_edb6e0,
+    .avatar__445f3
+) {
+    background: var(--profile-body-background-color);
+    box-shadow: var(--elevation-medium);
+}
+
+.userProfileModalInner__7c87d :where(
+    .avatarHoverTarget__3a360,
+    .avatarHint__8e5b9,
+    .avatar__445f3
+) {
+    padding: 6px;
+}
+
 .accountProfileCard__22589:not(:has(div[style*=image])) {
   background: none;
   box-shadow: var(--elevation-medium);
@@ -114,4 +130,30 @@
 }
 .accountProfileCard__22589 .fieldList_aab0de {
   background: none;
+}
+
+.bannerNitroUpsell__492d6 {
+	display: none;
+}
+
+.userProfileInnerThemedNonPremium__3d0a6 :where(
+	.avatarUploaderNormal__2388b,
+) {
+    background: var(--profile-body-background-color);
+    box-shadow: var(--elevation-medium);
+	border-radius: 50px;
+	padding: 6px
+}
+
+.userProfileInnerThemedNonPremium__3d0a6 :where(
+	.hoverIconWrapper_c222a3
+) {
+    margin-right: 8px ;
+    margin-bottom: 6px;
+}
+
+.userProfileInnerThemedNonPremium__3d0a6 :where(
+	.status_be3f03
+) {
+	display: none;
 }
