@@ -13,7 +13,7 @@
 
 
 :root {
-	
+
 	/* color control */
 	--accent-hue: 213;
 	--accent-saturation: 100%;
@@ -21,7 +21,7 @@
 	--background-accent-hue: 213;
 	--background-accent-saturation: 100%;
 	--background-accent-brightness: 50%;
-	
+
 	/* background image */
 	--background-image: initial;
 	--background-image-position: center;
@@ -30,7 +30,7 @@
 	--background-overlay-opacity: 80%;
 	--background-overlay-color-lightness: 0;
 	--background-hue-shift-strength: 100%;
-	
+
 	/* window */
 	--window-background-image: initial;
 	--window-background-image-position: center;
@@ -43,37 +43,37 @@
 	--window-border-radius: 10px;
 	--window-background-lightness: 0;
 	--window-accent-tint-strength: 35%;
-	
+
 	/* chat */
 	--chat-bubble: 1;
 	--chat-bubble-background-color: var(--background-primary);
 	--chat-bubble-border-color: var(--background-primary-border-color);
 	--text-link-hue: 212;
 	--chat-text-brightness: 0;
-	
+
 	/* dock */
 	--home-icon: initial;
 	--favorites-icon: initial;
 	--dock-blur: var(--window-blur);
 	--dock-border-radius: 0;
-	
+
 	/* sidebar */
 	--sidebar-width: 240px;
 	--members-width: 240px;
 	--sidebar-text-brightness: 0;
-	
+
 	/* floating */
 	--background-floating-blur: 20px;
 	--floating-background-lightness: 0;
 	--background-floating-opacity: 1;
 	--enable-floating-transparency: 1;
-	
+
 	/* font */
 	--custom-font-display: "";
 	--custom-font-regular: "";
 	--custom-font-primary: "";
 	--custom-font-code: "";
-	
+
 	/* other */
 	--enable-blur: 1;
 }
@@ -3925,7 +3925,7 @@ html.app-focused .sidebar__9e3e2 .selected__5711d.item__48dda:not([class*=disabl
 }
 
 .auditLog__6c805 .text-sm-medium_bc6ffc,
-.auditLog__6c805 .text-sm-normal_d9d853 {
+.auditLog__6c805 .text-sm-normal_e612c7 {
   font-family: var(--font-primary);
   font-size: 12px;
   line-height: 18px;
