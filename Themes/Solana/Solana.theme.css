@@ -11,6 +11,10 @@
 /* Source */
 @import url('https://gyrogyro.github.io/BetterDiscordStuff/Themes/Solana/Solana.css');
 
+/* Optional Addons */
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css);
+@import url(https://gyrogyro.github.io/BetterDiscordStuff/css/EditedMessages.css);
+
 :root {
     /* color control */
     --accent-hue: 213;
