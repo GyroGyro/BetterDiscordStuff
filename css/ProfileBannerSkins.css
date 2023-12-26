@@ -21,9 +21,11 @@
   height: 100vh;
 }
 
-.profileColors__2e2f0:not(:has(svg div[style*=image])) .avatarWrapper_f77579 {
+.profileColors__2e2f0:not(:has(svg div[style*=image])) .avatarWrapper_f77579,
+.profileColors__2e2f0:not(:has(svg div[style*=image])) .wrapper_edb6e0 {
   background: var(--profile-body-background-color);
   box-shadow: var(--elevation-medium);
+  padding: 6px;
 }
 .profileColors__2e2f0:not(:has(svg div[style*=image])) .avatarHoverTarget__3a360,
 .profileColors__2e2f0:not(:has(svg div[style*=image])) .avatarHint__8e5b9 {
