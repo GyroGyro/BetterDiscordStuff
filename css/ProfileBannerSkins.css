@@ -25,13 +25,13 @@
 .profileColors__2e2f0:not(:has(svg div[style*=image])) .wrapper_edb6e0:not(.listAvatar__907d4) {
   background: var(--profile-body-background-color);
   box-shadow: var(--elevation-medium);
-  padding: 6px;
 }
 .profileColors__2e2f0:not(:has(svg div[style*=image])) .avatarHoverTarget__3a360,
 .profileColors__2e2f0:not(:has(svg div[style*=image])) .avatarHint__8e5b9 {
   padding: 6px;
 }
-.profileColors__2e2f0:not(:has(svg div[style*=image])) .avatar-3QF_VA {
+.profileColors__2e2f0:not(:has(svg div[style*=image])) .avatar-3QF_VA,
+.profileColors__2e2f0:not(:has(svg div[style*=image])) .avatar__445f3 {
   background: var(--profile-body-background-color);
   box-shadow: var(--elevation-medium);
   padding: 6px;
