@@ -53,6 +53,11 @@
   z-index: 1;
 }
 
+.tabBarContainer__63f55 {
+    border-bottom: 1px solid var(--profile-body-divider-color) !important;
+    margin: 20px 0 0 !important;
+}
+
 .profileColors__2e2f0 .wrapper_edb6e0 circle,
 .profileColors__2e2f0 .wrapper_edb6e0 rect[style] {
   fill: none;
