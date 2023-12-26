@@ -22,7 +22,7 @@
 }
 
 .profileColors__2e2f0:not(:has(svg div[style*=image])) .avatarWrapper_f77579,
-.profileColors__2e2f0:not(:has(svg div[style*=image])) .wrapper_edb6e0 {
+.profileColors__2e2f0:not(:has(svg div[style*=image])) .wrapper_edb6e0:not(.listAvatar__907d4) {
   background: var(--profile-body-background-color);
   box-shadow: var(--elevation-medium);
   padding: 6px;
