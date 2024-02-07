@@ -4,7 +4,7 @@
 
 
 /* dropdown arrow */
-.container__590e2[aria-label^='𝕋𝕙𝕖 𝕂𝕚𝕟𝕘𝕕𝕠𝕞🏰'] .button__07e07.open_a0ea08 {
+.container__590e2[aria-label^='Server for Gyro Control ('] .button__07e07.open_a0ea08 {
     animation: headerArrow .2s ease-out
 }
 
@@ -20,17 +20,17 @@
 
 
 /* favorites-banner */
-#app-mount .container__590e2[aria-label^='𝕋𝕙𝕖 𝕂𝕚𝕟𝕘𝕕𝕠𝕞🏰'] .header__104ca {
+#app-mount .container__590e2[aria-label^='Server for Gyro Control ('] .header__104ca {
     box-shadow: none;
     background: 0 0;
     filter: drop-shadow(0 1px 1px hsla(0, 0%, 0%, .8))
 }
 
-.container__590e2[aria-label^='𝕋𝕙𝕖 𝕂𝕚𝕟𝕘𝕕𝕠𝕞🏰'] .container__7c79d {
+.container__590e2[aria-label^='Server for Gyro Control ('] .container__7c79d {
     margin-bottom: 87px
 }
 
-.container__590e2[aria-label^='𝕋𝕙𝕖 𝕂𝕚𝕟𝕘𝕕𝕠𝕞🏰'] .container__7c79d::after {
+.container__590e2[aria-label^='Server for Gyro Control ('] .container__7c79d::after {
     content: '';
     display: block;
     position: absolute;
