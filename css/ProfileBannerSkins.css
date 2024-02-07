@@ -1,4 +1,5 @@
 /* ProfileBannerSkins */
+/* ProfileBannerSkins */
 .theme-dark .profileColors__2e2f0,
 .theme-dark .accountProfileCard__22589 {
   --profile-body-background-color: rgba(0, 0, 0, 0.45);
@@ -29,7 +30,8 @@
 .profileColors__2e2f0:not(:has(svg div[style*=image])) .avatarHint__8e5b9 {
   padding: 6px;
 }
-.profileColors__2e2f0:not(:has(svg div[style*=image])) .avatar-3QF_VA {
+.profileColors__2e2f0:not(:has(svg div[style*=image])) .avatar-3QF_VA,
+.profileColors__2e2f0:not(:has(svg div[style*=image])) .avatar__445f3 {
   background: var(--profile-body-background-color);
   box-shadow: var(--elevation-medium);
   padding: 6px;
@@ -40,6 +42,11 @@
 }
 .profileColors__2e2f0 .messageInputContainer__768e6 {
   border: none;
+}
+
+.wrapper_edb6e0.listAvatar__907d4{
+  background: none !important;
+  box-shadow: none !important;
 }
 
 .containerWithContent__7e98f {
