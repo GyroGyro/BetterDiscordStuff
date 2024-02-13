@@ -4116,11 +4116,14 @@ html.app-focused .sidebar__9e3e2 .selected__5711d.item__48dda:not([class*=disabl
 
 .root_a28985 .header__6d5ea {
   border-radius: 8px 8px 0 0;
+  background-color: var(--modal-background);
 }
 
 .root_a28985 .footer__89240 {
   border-radius: 0 0 8px 8px;
+  background-color: var(--modal-background);
 }
+
 
 #app-mount .root_a28985 .footerSeparator__57d95 {
   box-shadow: none;
