@@ -1841,6 +1841,11 @@ code {
   border-radius: 8px;
 }
 
+.giftButtonContainer__68103 {
+	display: none;
+}
+
+
 /* 6.2.4. Invite */
 .wrapper_efe67f {
   --background-secondary-alt: var(--background-primary);
@@ -4115,7 +4120,6 @@ html.app-focused .sidebar__9e3e2 .selected__5711d.item__48dda:not([class*=disabl
 
 .root_a28985 .footer__89240 {
   border-radius: 0 0 8px 8px;
-  background-color: transparent;
 }
 
 #app-mount .root_a28985 .footerSeparator__57d95 {
