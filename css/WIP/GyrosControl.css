@@ -1,6 +1,6 @@
 :root {
 	--server-banner: url(https://imgur.com/hqovI9d.png);
-	--server-banner-2: url(https://imgur.com/5RVJXa0.gif);
+	--server-banner-2: url(https://imgur.com/0YrTx5b.gif);
 }
 
 
@@ -44,17 +44,17 @@
     box-shadow: var(--elevation-low);
 }
 /* ------------------------------- */
-#app-mount .container__590e2[aria-label^='Lo Stitchino'] .header__104ca {
+#app-mount .container__590e2[aria-label^='La tana degli stitchini'] .header__104ca {
     box-shadow: none;
     background: 0 0;
     filter: drop-shadow(0 1px 1px hsla(0, 0%, 0%, .8))
 }
 
-.container__590e2[aria-label^='Lo Stitchino'] .container__7c79d {
+.container__590e2[aria-label^='La tana degli stitchini'] .container__7c79d {
     margin-bottom: 87px
 }
 
-.container__590e2[aria-label^='Lo Stitchino'] .container__7c79d::after {
+.container__590e2[aria-label^='La tana degli stitchini'] .container__7c79d::after {
     content: '';
     display: block;
     position: absolute;
