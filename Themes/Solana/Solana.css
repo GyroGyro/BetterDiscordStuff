@@ -4042,6 +4042,10 @@ html.app-focused .sidebar__9e3e2 .selected__5711d.item__48dda:not([class*=disabl
   border-bottom: var(--background-secondary-border);
 }
 
+.temporaryMembershipContainerBackground__90283 {
+  background: transparent;
+}
+
 .option_be8b2e[aria-selected=true]:not(.option_be8b2e.multi-1HXDiv) .defaultColor-24IHKz {
   color: #fff;
 }
