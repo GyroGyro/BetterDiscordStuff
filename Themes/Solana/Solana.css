@@ -5761,7 +5761,7 @@ html.app-focused .sidebar__9e3e2 .selected__5711d.item__48dda:not([class*=disabl
   display: flex;
   align-items: center;
   top: 0;
-  width: 200%;
+  /*width: 200%;*/
   padding: 16px;
   margin-left: -41px;
   z-index: 10;
