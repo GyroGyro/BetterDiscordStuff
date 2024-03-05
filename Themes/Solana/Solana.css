@@ -5748,6 +5748,7 @@ html.app-focused .sidebar__9e3e2 .selected__5711d.item__48dda:not([class*=disabl
 
 .bd-search-wrapper {
   border-radius: 6px;
+  margin-right: 41px;
   background-color: transparent;
   box-shadow: var(--background-secondary-box-shadow-border);
 }
@@ -5761,9 +5762,10 @@ html.app-focused .sidebar__9e3e2 .selected__5711d.item__48dda:not([class*=disabl
   display: flex;
   align-items: center;
   top: 0;
-  /*width: 200%;*/
+  width: auto;
   padding: 16px;
   margin-left: -41px;
+  margin-right: -58px;
   z-index: 10;
   -webkit-app-region: drag;
   transform: translateY(-32px);
