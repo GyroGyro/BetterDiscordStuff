@@ -5872,6 +5872,7 @@ bd-body .floating-window {
   background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTcuMzkyOTMgMy4wMDg5M0wzLjAwODg3IDcuMzkyOTlMMi44MTc5NSAyLjgxODAxTDcuMzkyOTMgMy4wMDg5M1oiIGZpbGw9IiMwMjZBMTUiLz4KPHBhdGggZD0iTTQuNjA2OTUgOC45OTEwMUw4Ljk5MTAxIDQuNjA2OTVMOS4xODE5MyA5LjE4MTkzTDQuNjA2OTUgOC45OTEwMVogIiBmaWxsPSIjMDI2QTE1Ii8+Cjwvc3ZnPg==);
 }
 
+/*
 .bd-addon-list {
   --bdAddonMini-bg-checked: var(--background-primary);
   --bdAddonMini-bg-unchecked: var(--background-tertiary);
@@ -5905,6 +5906,7 @@ bd-body .floating-window {
   background-color: var(--background-floating);
   box-shadow: var(--elevation-stroke), var(--elevation-high);
 }
+*/
 
 .bd-toast {
   border: var(--background-primary-border);
