@@ -5747,6 +5747,15 @@ html.app-focused .sidebar__9e3e2 .selected__5711d.item__48dda:not([class*=disabl
   fill: var(--interactive-active);
 }
 
+.bd-modal-footer {
+	background: transparent;
+}
+
+.bd-modal-root {
+    border-radius: 8px;
+    border: var(--background-secondary-border-a);
+}
+
 .bd-search-wrapper {
   border-radius: 6px;
   margin-right: 41px;
