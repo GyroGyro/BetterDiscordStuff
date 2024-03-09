@@ -1,6 +1,5 @@
 :root {
-	--server-banner: url(https://imgur.com/hqovI9d.png);
-	--server-banner-2: url(https://imgur.com/0YrTx5b.gif);
+	--controls-server-banner: url(https://imgur.com/hqovI9d.png); /* Server for Gyro Control ( */
 }
 
 
@@ -20,7 +19,7 @@
 }
 
 
-/* favorites-banner */
+/* Server-banner */
 #app-mount .container__590e2[aria-label^='Server for Gyro Control ('] .header__104ca {
     box-shadow: none;
     background: 0 0;
@@ -40,29 +39,6 @@
     height: 135px;
     border-radius: 8px;
     pointer-events: none;
-    background: linear-gradient(180deg, rgba(0, 0, 0, .4) 0, transparent 48px), var(--server-banner) no-repeat center/cover;
-    box-shadow: var(--elevation-low);
-}
-/* ------------------------------- */
-#app-mount .container__590e2[aria-label^='La tana degli stitchini'] .header__104ca {
-    box-shadow: none;
-    background: 0 0;
-    filter: drop-shadow(0 1px 1px hsla(0, 0%, 0%, .8))
-}
-
-.container__590e2[aria-label^='La tana degli stitchini'] .container__7c79d {
-    margin-bottom: 87px
-}
-
-.container__590e2[aria-label^='La tana degli stitchini'] .container__7c79d::after {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 135px;
-    border-radius: 8px;
-    pointer-events: none;
-    background: linear-gradient(180deg, rgba(0, 0, 0, .4) 0, transparent 48px), var(--server-banner-2) no-repeat center/cover;
+    background: linear-gradient(180deg, rgba(0, 0, 0, .4) 0, transparent 48px), var(--controls-server-banner) no-repeat center/cover;
     box-shadow: var(--elevation-low);
 }
