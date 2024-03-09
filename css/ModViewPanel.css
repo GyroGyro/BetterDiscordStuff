@@ -66,3 +66,58 @@
     box-shadow: none;
 
 }
+
+/* Permission */
+.permissionItemContainer__274fd.elevatedPermission_c4dcb1 {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    gap: 12px;
+    border-radius: 8px;
+    background-color: var(--background-secondary);
+    box-shadow: var(--elevation-stroke);
+	border: none;
+}
+
+.permissionChiplet__7a040.elevatedPermission_af9178 {
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    border-radius: 4px;
+    background-color: var(--background-tertiary);
+    cursor: normal;
+}
+
+/* Header Buttons */
+.bottomRowAction__1d119 path[d="M12 22a10 10 0 1 0-8.45-4.64c.13.19.11.44-.04.61l-2.06 2.37A1 1 0 0 0 2.2 22H12Z"],
+.bottomRowAction__1d119[aria-label^="Messaggio"] .text-sm-normal_e612c7 { /* Message */
+	color: var(--text-normal);
+	fill: var(--text-normal);
+}
+
+.bottomRowAction__1d119 path[d="M11.53 11A9.53 9.53 0 0 0 2 20.53c0 .81.66 1.47 1.47 1.47h.22c.24 0 .44-.17.5-.4.29-1.12.84-2.17 1.32-2.91.14-.21.43-.1.4.15l-.25 2.61c-.03.3.2.55.5.55h7.63c.12 0 .17-.31.06-.36C12.82 21.14 12 20.22 12 19a3 3 0 0 1 3-3h5.02c.38 0 .61-.4.4-.72A9.52 9.52 0 0 0 12.47 11h-.94ZM12 10a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z"],
+.bottomRowAction__1d119 path[d="M15 18a1 1 0 1 0 0 2h8a1 1 0 0 0 0-2h-8Z"],
+.bottomRowAction__1d119[aria-label^="Espelli"] .text-sm-normal_e612c7 { /* Kick */
+	color: var(--status-danger);
+	fill: var(--status-danger);
+}
+
+.bottomRowAction__1d119 path[d="M1.23 21.13a1 1 0 0 1 0-1.41l7.48-7.47c.2-.2.51-.2.7 0l2.13 2.12c.2.2.2.5 0 .7l-7.48 7.48a1 1 0 0 1-1.41 0l-1.42-1.42ZM7.76 7.76l8.48 8.49a2 2 0 0 0 2.83 0l3.54-3.54a2 2 0 0 0 0-2.83l-2.94-2.94.65-.66a1 1 0 0 0 0-1.4l-1.41-1.42a1 1 0 0 0-1.41 0l-.66.65-2.72-2.71a2 2 0 0 0-2.83 0L7.76 4.93a2 2 0 0 0 0 2.83Z"],
+.bottomRowAction__1d119[aria-label^="Banna"] .text-sm-normal_e612c7 { /* Ban */
+	color: var(--status-danger);
+	fill: var(--status-danger);
+}
+
+.bottomRowAction__1d119 path[d="M12 23c.08 0 .14-.08.11-.16a2.88 2.88 0 0 1 .29-2.31l2.2-3.85c.18-.3-.06-.73-.3-.97l-3-3A1 1 0 0 1 11 12V5a1 1 0 1 1 2 0v6.38c0 .13.05.26.15.35l2.56 2.56c.08.08.22.08.28-.02l.36-.64a3.06 3.06 0 0 1 5.3 0l.3.54c.22.38.78.31.86-.12A11 11 0 1 0 12 23Z"],
+.bottomRowAction__1d119 path[d="M18.09 14.63c.4-.7 1.43-.7 1.82 0l3.96 6.9c.38.66-.12 1.47-.91 1.47h-7.92c-.79 0-1.3-.81-.91-1.48l3.96-6.9Zm.46 1.87h.9c.3 0 .52.26.5.55l-.22 2.02c-.01.16-.17.26-.33.23a1.93 1.93 0 0 0-.8 0c-.16.03-.32-.07-.33-.23l-.21-2.02a.5.5 0 0 1 .5-.55ZM19 22a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"],
+.bottomRowAction__1d119[aria-label^="Time out"] .text-sm-normal_e612c7 { /* Time Out */
+	color: var(--status-danger);
+	fill: var(--status-danger);
+}
+
+.bottomRowAction__1d119 path[d="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3 3 0 0 0-3-3H5Zm1 15h2.04V7.34H6V17Zm4-9.66V17h3.44c1.46 0 2.6-.42 3.38-1.25.8-.83 1.2-2.02 1.2-3.58s-.4-2.75-1.2-3.58c-.79-.83-1.92-1.25-3.38-1.25H10Z"],
+.bottomRowAction__1d119 path[d="M15.3 14.48c-.46.45-1.08.67-1.86.67h-1.39V9.2h1.39c.78 0 1.4.22 1.86.67.46.45.68 1.22.68 2.31 0 1.1-.22 1.86-.68 2.31Z"],
+.bottomRowAction__1d119[aria-label^="Copia l'ID"] .text-sm-normal_e612c7 { /* Copy ID */
+	color: var(--text-normal);
+	fill: var(--text-normal);
+}
