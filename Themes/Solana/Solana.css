@@ -1956,6 +1956,7 @@ code {
 
 .searchResultsWrap__9f374 {
   background-color: var(--background-secondary-a);
+  border-left: var(--background-tertiary-border-variable-divider-a);
 }
 
 .searchHeader__19d87 {
