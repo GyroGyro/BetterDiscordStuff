@@ -61,8 +61,22 @@
 }
 
 .tabBarContainer__63f55 {
-    border-bottom: 1px solid var(--profile-body-divider-color) !important;
+    border-bottom: none !important;
     margin: 20px 0 0 !important;
+}
+
+.theme-dark .root_a28985 .tabBarContainer__63f55 {
+	background: transparent;
+    box-shadow: none;
+}
+
+.tabBar__35f81.top__592a7 {
+    border-bottom: 1px solid var(--profile-body-divider-color) !important;
+}
+
+.tabBar__35f81.top__592a7 .selected__5711d.themed_b957e8.item__48dda,
+.tabBar__35f81.top__592a7:hover .themed_b957e8.item__48dda {
+    border-bottom-color: transparent;
 }
 
 .profileColors__2e2f0 .wrapper_edb6e0 circle,
