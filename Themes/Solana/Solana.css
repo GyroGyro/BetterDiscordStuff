@@ -5764,6 +5764,12 @@ html.app-focused .sidebar__9e3e2 .selected__5711d.item__48dda:not([class*=disabl
   box-shadow: var(--background-secondary-box-shadow-border);
 }
 
+.bd-update-check {
+  border-radius: 6px;
+  margin-right: 116px;
+  background-color: transparent;
+}
+
 .bd-search-wrapper:focus-within {
   box-shadow: var(--box-shadow-selection-50a);
 }
