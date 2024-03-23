@@ -1040,6 +1040,14 @@ html.theme-dark #app-mount .tooltipPointer_a79354 {
   box-shadow: var(--btn-outer-shadow);
 }
 
+.upsellBanner__4c9fb.enhancedBanner__09743 {
+    display: flex;
+    background: transparent;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px;
+}
+
 .root_a28985.fullscreenOnMobile__96797 .upsellBanner-1tVKtW svg.white-2rWWmN {
   height: 16px;
   width: 22px;
