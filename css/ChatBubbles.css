@@ -103,3 +103,51 @@ Debuggerz1 - Math
 .markup_a7e664 blockquote, .markup_a7e664 pre {
     max-width: 100%;
 }
+
+/* Chat Polls */
+.defaultTextInputWrapper__4f24b {
+    display: flex;
+    align-items: stretch;
+    overflow: hidden;
+    border-radius: 6px;
+    border: var(--background-secondary);
+    background-color: var(--background-secondary);
+    transition: border-color.2s ease-in-out;
+}
+
+.addAnswerButton__0db97 {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: var(--background-secondary);
+    border: var(--background-secondary-border);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.addAnswerButton__0db97:hover {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: var(--background-primary);
+    border: var(--background-secondary-border);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.container__3ca24.normalStylesDefault_b8063d.pollContainer__95d4b {
+    background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary)));
+    background-size: calc(var(--chat-bubble) * 1px);
+    padding: calc(7px * var(--chat-bubble)) calc(12px * var(--chat-bubble));
+    border-radius: calc(8px * var(--chat-bubble));
+    border: calc(1px * var(--chat-bubble)) solid var(--chat-bubble-border-color, var(--background-primary-border-color));
+    box-shadow: 0 calc(4px * var(--chat-bubble)) calc(4px * var(--chat-bubble)) rgba(0, 0, 0, calc(0.16 * var(--chat-bubble)));
+}
+
+
+.answer__07489 {
+    background: linear-gradient(var(--brand-experiment-05a), var(--brand-experiment-05a));
+    background-size: calc(var(--chat-bubble) * 1px);
+    border-radius: calc(8px * var(--chat-bubble));
+    border: calc(1px * var(--chat-bubble)) solid var(--brand-experiment);
+}
