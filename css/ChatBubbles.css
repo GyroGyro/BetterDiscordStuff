@@ -151,3 +151,17 @@ Debuggerz1 - Math
     border-radius: calc(8px * var(--chat-bubble));
     border: calc(1px * var(--chat-bubble)) solid var(--brand-experiment);
 }
+
+.answer__07489 .answerInner_a3bc8e.currentlyVoting_ca7610.selected__1aeff,
+.answer__07489 .answerInner_a3bc8e {
+    outline: 1px solid var(--brand-experiment)
+}
+
+.answerSelectionIcon__5bf65 path[d="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm5.7-13.3a1 1 0 0 0-1.4-1.4L10 14.58l-2.3-2.3a1 1 0 0 0-1.4 1.42l3 3a1 1 0 0 0 1.4 0l7-7Z"] {
+    fill: var(--brand-experiment);
+}
+
+.checkboxSelected__7c45b {
+    background-color: var(--brand-experiment);
+}
+
