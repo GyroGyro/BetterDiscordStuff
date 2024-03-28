@@ -1,20 +1,20 @@
-.message__80c10 .edited_b20dd9 {
+.message_ccca67 .edited_b20dd9 {
     color: var(--text-muted);
     font-size: 0;
 }
 
-.message__80c10:not(:hover) .timestamp_cdbd93:has(.edited_b20dd9) time::before{
+.message_ccca67:not(:hover) .timestamp_c79dd2:has(.edited_b20dd9) time::before{
     animation: editout .5s linear alternate;
 }
 
-.timestamp_cdbd93:has(.edited_b20dd9) time::before {
+.timestamp_c79dd2:has(.edited_b20dd9) time::before {
     content: "(✎)";
     font-size: 0.625rem;
     font-weight: 400;
     line-height: 1;
 }
 
-.message__80c10:hover .timestamp_cdbd93:has(.edited_b20dd9) time::before {
+.message_ccca67:hover .timestamp_c79dd2:has(.edited_b20dd9) time::before {
     animation: editin .5s linear alternate;
     text-transform: lowercase;
     content: " (" attr(aria-label) ")";

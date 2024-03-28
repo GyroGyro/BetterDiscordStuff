@@ -5,17 +5,17 @@
 
 /* ------------------------------- */
 /*
-#app-mount .container__590e2[aria-label^='୨🌸୧・StayChill・୨🌸୧ '] .header__104ca {
+#app-mount .container__7e23c[aria-label^='୨🌸୧・StayChill・୨🌸୧ '] .header__77c95 {
     box-shadow: none;
     background: 0 0;
     filter: drop-shadow(0 1px 1px hsla(0, 0%, 0%, .8))
 }
 
-.container__590e2[aria-label^='୨🌸୧・StayChill・୨🌸୧ '] .container__7c79d {
+.container__7e23c[aria-label^='୨🌸୧・StayChill・୨🌸୧ '] .container_f41675 {
     margin-bottom: 87px
 }
 
-.container__590e2[aria-label^='୨🌸୧・StayChill・୨🌸୧ '] .container__7c79d::after {
+.container__7e23c[aria-label^='୨🌸୧・StayChill・୨🌸୧ '] .container_f41675::after {
     content: '';
     display: block;
     position: absolute;
@@ -29,17 +29,17 @@
 }
 */
 /* ------------------------------- */
-#app-mount .container__590e2[aria-label^='La tana degli stitchini'] .header__104ca {
+#app-mount .container__7e23c[aria-label^='La tana degli stitchini'] .header__77c95 {
     box-shadow: none;
     background: 0 0;
     filter: drop-shadow(0 1px 1px hsla(0, 0%, 0%, .8))
 }
 
-.container__590e2[aria-label^='La tana degli stitchini'] .container__7c79d {
+.container__7e23c[aria-label^='La tana degli stitchini'] .container_f41675 {
     margin-bottom: 87px
 }
 
-.container__590e2[aria-label^='La tana degli stitchini'] .container__7c79d::after {
+.container__7e23c[aria-label^='La tana degli stitchini'] .container_f41675::after {
     content: '';
     display: block;
     position: absolute;
