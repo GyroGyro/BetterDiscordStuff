@@ -5251,7 +5251,7 @@ html.app-focused .sidebar__02e8d .selected_a523ff.item__48dda:not([class*=disabl
   margin: 4px;
 }
 
-.profileColors_ac6ab4:not(.userProfileModalOuter_a65559) {
+.profileColors_ac6ab4:not(.userProfileModalOuter__90b4a) {
   border: var(--background-floating-border);
   box-shadow: var(--elevation-stroke), var(--elevation-high);
 }

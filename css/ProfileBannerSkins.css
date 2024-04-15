@@ -54,7 +54,7 @@
   z-index: 1;
 }
 
-.overlayBackground__2666e {
+.overlayBackground__345c9 {
   margin: 28px 8px 8px;
   box-shadow: var(--elevation-medium);
   z-index: 1;
@@ -84,7 +84,7 @@
   fill: none;
 }
 
-.userProfileModalInner__99b1e:not(:has(div[style*=image])) :where(
+.userProfileModalInner__84e47:not(:has(div[style*=image])) :where(
     .wrapper__3ed10:not(.listAvatar__67297),
     .avatar__445f3
 ) {
@@ -93,7 +93,7 @@
     padding: 6px;
 }
 
-.userProfileModalInner__99b1e:not(:has(div[style*=image])) :where(
+.userProfileModalInner__84e47:not(:has(div[style*=image])) :where(
     .avatarHoverTarget__9b4a9,
     .avatarHint__15059,
     .avatar__445f3
@@ -163,7 +163,7 @@
 	display: none;
 }
 
-.userProfileInnerThemedNonPremium_ed9022 :where(
+.userProfileInnerThemedNonPremium_b64fb4 :where(
 	.avatarUploaderNormal_d16dca,
 ) {
     background: var(--profile-body-background-color);
@@ -172,14 +172,14 @@
 	padding: 6px
 }
 
-.userProfileInnerThemedNonPremium_ed9022 :where(
+.userProfileInnerThemedNonPremium_b64fb4 :where(
 	.hoverIconWrapper_e9a7d0
 ) {
     margin-right: 8px ;
     margin-bottom: 6px;
 }
 
-.userProfileInnerThemedNonPremium_ed9022 :where(
+.userProfileInnerThemedNonPremium_b64fb4 :where(
 	.status_be3f03
 ) {
 	display: none;
