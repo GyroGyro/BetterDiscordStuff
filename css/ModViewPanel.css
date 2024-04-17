@@ -29,8 +29,11 @@
     background: var(--background-secondary-a) !important;
 }
 
+.sidebarContianer__623bd .userProfileInner__8ff35,
 .sidebarContianer__623bd .userProfileInner__8ff35:before {
     background-color: var(--background-secondary-a) !important;
+	border: none !important;
+	box-shadow: none !important;
 }
 
 .sidebarContianer__623bd .userProfileOuterThemed_a425f3.userProfileOuter__35e59 {
