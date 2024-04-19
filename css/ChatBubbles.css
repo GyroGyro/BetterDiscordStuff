@@ -44,9 +44,20 @@ Debuggerz1 - Math
 
 .groupStart__7b93c.cozyMessage__9f4fd.mentioned_fa6fd2 .contents_d3ae0d,
 .cozyMessage__9f4fd.mentioned_fa6fd2:not(.groupStart__7b93c) .contents_d3ae0d>.markup_a7e664:not(:empty, .searchResultsWrap__2e184 *) {
-    background: linear-gradient(var(--background-mentioned), var(--background-mentioned));
+    background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary)));
     background-size: calc(var(--chat-bubble) * 1px);
-    border: calc(1px * var(--chat-bubble)) solid var(--info-warning-foreground);
+    max-width: calc(100% - (10% * var(--chat-bubble)));
+    width: fit-content;
+    margin: 0;
+    padding: calc(7px * var(--chat-bubble)) calc(12px * var(--chat-bubble));
+    border-radius: calc(8px * var(--chat-bubble));
+    border: calc(1px * var(--chat-bubble)) solid var(--chat-bubble-border-color, var(--background-primary-border-color));
+    box-shadow: 0 calc(4px * var(--chat-bubble)) calc(4px * var(--chat-bubble)) rgba(0, 0, 0, calc(0.16 * var(--chat-bubble)));
+}
+
+.message_ccca67.mentioned_fa6fd2.selected_e3bc5d, .mouse-mode.full-motion .mentioned_fa6fd2:hover,
+.cozyMessage__9f4fd.mentioned_fa6fd2:hover {
+    background-color: var(--background-message-hover) !important;
 }
 
 .cozyMessage__9f4fd.mentioned_fa6fd2 {
