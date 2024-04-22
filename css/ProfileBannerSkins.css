@@ -140,6 +140,9 @@
   width: fit-content;
   padding: 4px;
 }
+.accountProfileCard__744d8 .badgeList__6b2c7:not(:has(.containerWithContent_a67357)) {
+  background: none;
+}
 .accountProfileCard__744d8 .userTag__28f9c {
   margin-bottom: 0;
   padding-left: 4px;
