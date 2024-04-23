@@ -133,7 +133,7 @@
 }
 .accountProfileCard__744d8 .profileCardUsernameRow_f8853e,
 .accountProfileCard__744d8 .containerWithContent_a67357 {
-  background-color: var(--profile-body-background-color);
+  background-color: var(--profile-body-background-color) !important;
   box-shadow: var(--elevation-medium);
   border-radius: 8px;
   width: -moz-fit-content;
