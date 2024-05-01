@@ -133,12 +133,15 @@
 }
 .accountProfileCard__744d8 .profileCardUsernameRow_f8853e,
 .accountProfileCard__744d8 .containerWithContent_a67357 {
-  background-color: var(--profile-body-background-color);
+  background-color: var(--profile-body-background-color) !important;
   box-shadow: var(--elevation-medium);
   border-radius: 8px;
   width: -moz-fit-content;
   width: fit-content;
   padding: 4px;
+}
+.accountProfileCard__744d8 .badgeList__6b2c7:not(:has(.containerWithContent_a67357)) {
+  background: none;
 }
 .accountProfileCard__744d8 .userTag__28f9c {
   margin-bottom: 0;
