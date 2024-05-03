@@ -1,0 +1,17 @@
+@import url(https://gyrogyro.github.io/BetterDiscordStuff/css/GyrosControl/BannerData.css);
+
+:root {
+    --display-server-background-image: 0;
+}
+
+/* ------------------------------- */
+
+html:has(.container__7e23c[aria-label^='𝒸𝒽𝒾𝓁𝓁 𝓏𝑜𝓃𝑒 🌙']) .content__01e65:not(.container__03ec9, .container__3a30a) {
+    background: linear-gradient(180deg, rgba(0, 0, 0, .4) var(--diplay-server-background-image), transparent 48px), var(--server-banner-2) no-repeat center/cover !important;
+}
+
+html:has(.container__7e23c[aria-label^='𝒸𝒽𝒾𝓁𝓁 𝓏𝑜𝓃𝑒 🌙']) .messagesWrapper_add28b > div {
+	background: none !important;
+}
+
+/* ------------------------------- */
