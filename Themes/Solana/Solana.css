@@ -1887,7 +1887,8 @@ code {
   box-shadow: var(--box-shadow-selection-50a);
 }
 
-.form_d8a4a1:before {
+.form_d8a4a1:before,
+.form_d8a4a1:after {
   display: none;
 }
 
