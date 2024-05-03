@@ -1,4 +1,4 @@
-/* makes quests, polls and other small thinks looks better with ChatBubbles */
+/* makes activities, quests, polls and other small thinks matches with ChatBubbles */
 @import url(https://gyrogyro.github.io/BetterDiscordStuff/css/ChatBubbles.css);
 
 /* Chat Polls */
@@ -79,6 +79,7 @@
     background-size: calc(var(--chat-bubble) * 1px);
 }
 
+/* activities invite in chat */
 .wrapper__8a5dd:has(.info__531e8).content__36bc0 {
     border-right-radius: calc(8px * var(--chat-bubble));
     border: calc(1px * var(--chat-bubble)) solid var(--chat-bubble-border-color, var(--background-primary-border-color));
