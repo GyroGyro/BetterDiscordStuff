@@ -1579,6 +1579,10 @@ html.app-focused .interactiveSelected__689f0.selected__37292 {
 }
 
 /* 6.2.1. Message */
+.wrapper_c899da {
+	background: transparent;
+}
+
 .wrapper__4e6b6 {
   border: var(--background-primary-border);
   border-radius: 8px;
