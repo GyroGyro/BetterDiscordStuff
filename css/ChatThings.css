@@ -1,6 +1,7 @@
-/* Chat Polls */
+/* makes quests, polls and other small thinks looks better with ChatBubbles */
 @import url(https://gyrogyro.github.io/BetterDiscordStuff/css/ChatBubbles.css);
 
+/* Chat Polls */
 .defaultTextInputWrapper__87159 {
     display: flex;
     align-items: stretch;
@@ -40,7 +41,6 @@
     box-shadow: 0 calc(4px * var(--chat-bubble)) calc(4px * var(--chat-bubble)) rgba(0, 0, 0, calc(0.16 * var(--chat-bubble)));
 }
 
-
 .answer__07489 {
     background: linear-gradient(var(--brand-experiment-05a), var(--brand-experiment-05a));
     background-size: calc(var(--chat-bubble) * 1px);
@@ -66,3 +66,23 @@
     color: var(--white-500);
 }
 
+
+/* quest invite in chat */
+.questsCard__20ba2 {
+    border-radius: calc(8px * var(--chat-bubble));
+    border: calc(1px * var(--chat-bubble)) solid var(--chat-bubble-border-color, var(--background-primary-border-color));
+    box-shadow: 0 calc(4px * var(--chat-bubble)) calc(4px * var(--chat-bubble)) rgba(0, 0, 0, calc(0.16 * var(--chat-bubble)));
+}
+
+.container__62863 .questsCard__20ba2 .outerContainer_a76fe9 {
+    background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary)));
+    background-size: calc(var(--chat-bubble) * 1px);
+}
+
+.wrapper__8a5dd:has(.info__531e8).content__36bc0 {
+    border-right-radius: calc(8px * var(--chat-bubble));
+    border: calc(1px * var(--chat-bubble)) solid var(--chat-bubble-border-color, var(--background-primary-border-color));
+    box-shadow: 0 calc(4px * var(--chat-bubble)) calc(4px * var(--chat-bubble)) rgba(0, 0, 0, calc(0.16 * var(--chat-bubble)));
+    background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary))) !important;
+    background-size: calc(var(--chat-bubble) * 1px);
+}
