@@ -25,3 +25,17 @@ html:has(.container__7e23c[aria-label^='𝒸𝒽𝒾𝓁𝓁 𝓏𝑜𝓃𝑒 �
 }
 
 /* ------------------------------- */
+
+html:has(.container__7e23c[aria-label^='Server for Gyro Control (']) .content__01e65:not(.container__03ec9, .container__3a30a):after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 100%;
+	width: 100%;
+    z-index: -999;
+	opacity: var(--server-background-image-opacity);
+    pointer-events: none;
+	border-radius: 0px 0px var(--window-border-radius-calc) var(--window-border-radius-calc);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) var(--server-background-image), transparent 0px), var(--server-banner-1) no-repeat var(--server-background-image-position);
+	filter: blur(var(--server-background-image-blur));
+}
