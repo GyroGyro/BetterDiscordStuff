@@ -12,7 +12,7 @@
 }
 
 .rtcConnectionStatusConnected__9db4a::after {
-    content: var(--voice-status);
+    content: var(--voice-status-text);
     font-size: 16px;
     line-height: 20px;
     color: var(--voice-status-color);
