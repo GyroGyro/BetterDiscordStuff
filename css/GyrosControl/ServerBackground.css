@@ -10,6 +10,7 @@
     --server-background-image-blur: 1px;
 }
 
+/* servers */
 html:has(.container__7e23c[aria-label^='𝒸𝒽𝒾𝓁𝓁 𝓏𝑜𝓃𝑒 🌙']) .content__01e65:not(.container__03ec9, .container__3a30a):after {
     content: "";
     position: absolute;
@@ -24,7 +25,11 @@ html:has(.container__7e23c[aria-label^='𝒸𝒽𝒾𝓁𝓁 𝓏𝑜𝓃𝑒 �
 	filter: blur(var(--server-background-image-blur));
 }
 
-/* ------------------------------- */
+html:has(.container__7e23c[aria-label^='𝒸𝒽𝒾𝓁𝓁 𝓏𝑜𝓃𝑒 🌙']) .content__01e65:has(.container_b92032) .container_f79ab4 {
+	background: var(--window-color-calc, var(--background-secondary-a));
+}
+
+/* ================================================================================================================== */
 
 html:has(.container__7e23c[aria-label^='Server for Gyro Control (']) .content__01e65:not(.container__03ec9, .container__3a30a):after {
     content: "";
@@ -38,4 +43,8 @@ html:has(.container__7e23c[aria-label^='Server for Gyro Control (']) .content__0
 	border-radius: 0px 0px var(--window-border-radius-calc) var(--window-border-radius-calc);
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) var(--server-background-image), transparent 0px), var(--server-banner-1) no-repeat var(--server-background-image-position);
 	filter: blur(var(--server-background-image-blur));
+}
+
+html:has(.container__7e23c[aria-label^='Server for Gyro Control (']) .content__01e65:has(.container_b92032) .container_f79ab4 {
+	background: var(--window-color-calc, var(--background-secondary-a));
 }
