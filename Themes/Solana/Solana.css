@@ -4804,7 +4804,7 @@ html.app-focused .sidebar__02e8d .selected_a523ff.item__48dda:not([class*=disabl
 
 #emoji-picker-tab-panel .searchBar__57f39,
 #gif-picker-tab-panel .searchBar_ca009d,
-#sticker-picker-tab-panel .searchBar__57f39 {
+#sticker-picker-tab-panel .wrapper__4dfa5 {
   border-radius: 6px;
   background-color: var(--background-modifier-hover);
 }
@@ -4815,7 +4815,7 @@ html.app-focused .sidebar__02e8d .selected_a523ff.item__48dda:not([class*=disabl
 
 #emoji-picker-tab-panel .searchBar__57f39:focus-within,
 #gif-picker-tab-panel .searchBar_ca009d:focus-within,
-#sticker-picker-tab-panel .searchBar__57f39-:focus-within {
+#sticker-picker-tab-panel .wrapper__4dfa5:focus-within {
   box-shadow: var(--box-shadow-selection-50a);
 }
 
