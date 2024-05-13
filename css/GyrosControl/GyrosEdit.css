@@ -22,6 +22,10 @@
     display: none;
 }
 
+/* [✔] 🠗 soundboard button background 🠗 */
+.button_b82d53[aria-label^='Apri Soundboard'].buttonColor__7bad9.buttonActive_ae686f {
+  background-color: var(--background-modifier-accent) !important;
+}
 
 /* [✔] 🠗 remove the buggy nitro icons from "stream" pop-up 🠗 */
 .iconTextContainer-Z3gitj, .upsellBanner-1tVKtW {
