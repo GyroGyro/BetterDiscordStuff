@@ -678,6 +678,7 @@
     display: none;
 }
 
+
 /* [✔] 🠗 Discord Clips 🠗 */
 .clipsFooter__50a93 {
     border-bottom-left-radius: 8px;
@@ -688,16 +689,6 @@
 	background: transparent;
 	border: var(--background-tertiary-border);
 	border-radius: 8px;
-}
-
-.playPauseButtonWrapper_c0143c {
-    display: flex;
-    background-color: transparent;
-    width: 80px;
-    align-items: center;
-    justify-content: center;
-    border-radius: 8px;
-    border-bottom-left-radius: none;
 }
 
 .clipItem__2a29e {
@@ -711,4 +702,49 @@
     background: var(--background-primary);
     box-shadow: var(--box-shadow-outer-2);
     border: var(--background-primary-border);
+}
+
+.inner__999f6 {
+  border-radius: 8px;
+  background-color: var(--background-secondary);
+  border: var(--background-primary-border);
+}
+
+.timelineContainer_b26c0b {
+	background-color: var(--modal-background);
+    border-radius: 8px;
+}
+
+.playPauseButtonWrapper_c0143c {
+  background-color: var(--background-modifier-accent);
+  border: var(--background-modifier-accent-border);
+  margin-right: 24px;
+  border-radius: 8px;
+}
+
+.playPauseButtonWrapper_c0143c:hover {
+   background-color: var(--button-selected-background);
+}
+
+.playPauseButtonWrapper_c0143c:has(path[d="M6 4a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H6ZM15 4a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-3Z"]) {
+	background-color: #fff;
+}
+
+.playPauseButtonWrapper_c0143c:has(path[d="M6 4a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H6ZM15 4a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-3Z"]) .playPauseIcon__7a563 {
+	color: var(--status-positive);
+}
+
+.dragBox__3b2ad {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    border-top: 2px solid var(--brand-experiment);
+    border-bottom: 2px solid var(--brand-experiment);
+}
+
+.timePillBackground_bccedc,
+.dragHandleLeft_f65db4,
+.dragHandleRight_f03fa8,
+.dragHandle__7b38b {
+	background-color: var(--brand-experiment);
 }
