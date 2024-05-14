@@ -79,6 +79,7 @@
     background-size: calc(var(--chat-bubble) * 1px);
 }
 
+
 /* activities invite in chat */
 .wrapper__8a5dd:has(.info__531e8).content__36bc0 {
     border-right-radius: calc(8px * var(--chat-bubble));
@@ -88,9 +89,20 @@
     background-size: calc(var(--chat-bubble) * 1px);
 }
 
+
 /* referral nitro gift */
 .referralContainer__44aad > .container_c8c45b {
     border-radius: calc(8px * var(--chat-bubble));
+    border: calc(1px * var(--chat-bubble)) solid var(--chat-bubble-border-color, var(--background-primary-border-color));
+    box-shadow: 0 calc(4px * var(--chat-bubble)) calc(4px * var(--chat-bubble)) rgba(0, 0, 0, calc(0.16 * var(--chat-bubble)));
+    background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary)));
+    background-size: calc(var(--chat-bubble) * 1px);
+}
+
+
+/* discord clips */
+.container__62863:has(.container__473f9) .container__473f9 {
+    border-radius: 0px 0px calc(8px * var(--chat-bubble)) calc(8px * var(--chat-bubble));
     border: calc(1px * var(--chat-bubble)) solid var(--chat-bubble-border-color, var(--background-primary-border-color));
     box-shadow: 0 calc(4px * var(--chat-bubble)) calc(4px * var(--chat-bubble)) rgba(0, 0, 0, calc(0.16 * var(--chat-bubble)));
     background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary)));

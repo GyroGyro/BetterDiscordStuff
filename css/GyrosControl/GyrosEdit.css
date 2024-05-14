@@ -677,3 +677,38 @@
 .avatarDecorationHint__04b99 {
     display: none;
 }
+
+/* [✔] 🠗 Discord Clips 🠗 */
+.clipsFooter__50a93 {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.clipForm_f207e0 {
+	background: transparent;
+	border: var(--background-tertiary-border);
+	border-radius: 8px;
+}
+
+.playPauseButtonWrapper_c0143c {
+    display: flex;
+    background-color: transparent;
+    width: 80px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border-bottom-left-radius: none;
+}
+
+.clipItem__2a29e {
+    background: var(--background-primary);
+    box-shadow: var(--box-shadow-outer-2);
+    border: var(--background-primary-border);
+	filter: none;
+}
+
+.clipItem__2a29e:hover {
+    background: var(--background-primary);
+    box-shadow: var(--box-shadow-outer-2);
+    border: var(--background-primary-border);
+}
