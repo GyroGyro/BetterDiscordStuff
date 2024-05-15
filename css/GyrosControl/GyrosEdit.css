@@ -397,9 +397,9 @@
 
 
 /* [✔] 🠗 New Username Tags 🠗 */
-.userTag__45349:not(.nameTag_fdddf8) .userTagUsernameBase__2bd24::before,
-.info__40462.nameTagSmall__6459e .discriminator__9d9f2::before {
-    content: "@";
+.userPopoutInner_ac0960 .userTagUsername__88953:before,
+.fullSizeOuter__64397 .userTagUsername__88953:before {
+  content: "@";
 }
 
 
