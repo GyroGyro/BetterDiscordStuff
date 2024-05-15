@@ -152,6 +152,7 @@
     background-color: var(--window-color-calc, var(--background-secondary-a));
 }
 
+/*
 .accountProfileCard__744d8:not(:has([style*="/banners/"])) .avatar__6c108 {
     top: 16px;
     left: 16px;
@@ -159,13 +160,15 @@
     background-color: var(--profile-body-background-color);
     box-shadow: var(--elevation-medium);
 }
-
+*/
 
 /* [✔] 🠗 adjust profile in profilecard settings 🠗 */
+/*
 .accountProfileCard__744d8:has([style*="/banners/"]) .avatar__6c108 {
     padding: 3.5px;
     box-shadow: var(--elevation-medium);
 }
+*/
 
 
 .banner__6d414:not([style*="background-image"]),
