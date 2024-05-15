@@ -18,7 +18,7 @@
   -webkit-mask: none;
           mask: none;
 }
-*/
+
 .bannerSVGWrapper__8a38c:not(:has([style*=image])) [style*=background-color] {
   height: 100vh;
 }
@@ -101,6 +101,7 @@
 ) {
     padding: 6px;
 }
+*/
 
 .accountProfileCard__744d8:not(:has(div[style*=image])) {
   background: none;
