@@ -9,7 +9,7 @@
 .theme-light .accountProfileCard__744d8 {
   --profile-body-background-color: rgba(255, 255, 255, 0.65);
 }
-/*
+
 .bannerSVGWrapper__8a38c:not(:has([style*=image])) {
   overflow: visible;
   contain: none;
@@ -101,7 +101,6 @@
 ) {
     padding: 6px;
 }
-*/
 
 .accountProfileCard__744d8:not(:has(div[style*=image])) {
   background: none;
