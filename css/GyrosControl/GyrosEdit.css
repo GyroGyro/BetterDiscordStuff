@@ -163,6 +163,10 @@
 */
 
 /* [✔] 🠗 adjust profile in profilecard settings 🠗 */
+.accountProfileCard__744d8:not(:has([style*="/banners/"])) .avatar__6c108 {
+    padding: 3.5px;
+    box-shadow: var(--elevation-medium);
+}
 /*
 .accountProfileCard__744d8:has([style*="/banners/"]) .avatar__6c108 {
     padding: 3.5px;
