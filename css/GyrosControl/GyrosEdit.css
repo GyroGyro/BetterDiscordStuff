@@ -132,7 +132,7 @@
 	background: var(--window-color-calc, var(--background-secondary-a));
 }
 
-.userProfileInner__8ff35:not(:has([style*="/banners/"])) .userPanelOverlayBackground_a2b6ae {
+.userProfileInner__8ff35:not(:has([style*="/banners/"])) .overlayBackground__345c9 {
     background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary)));
     border-left: var(--background-tertiary-border-variable-divider-a);
 	border-right: none;
