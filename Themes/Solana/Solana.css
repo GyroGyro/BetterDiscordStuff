@@ -243,7 +243,7 @@
   --brand-400: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 86.1%), 71.8%);
   --brand-430: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 85.7%), 69.8%);
   --brand-460: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 85.5%), 67.5%);
-  --brand-500: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 85.6%), 64.7%);
+  --brand-500: hsl(var(--accent-hue), calc(var(--saturation-factor, 1)*var(--accent-saturation)), var(--accent-brightness)); /*hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 85.6%), 64.7%);*/
   --brand-530: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 66.7%), 58.8%);
   --brand-560: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 51.4%), 52.4%);
   --brand-600: hsl(var(--accent-hue), calc(var(--saturation-factor, 1) * 46.7%), 44.1%);
