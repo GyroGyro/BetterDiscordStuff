@@ -132,7 +132,7 @@
 	background: var(--window-color-calc, var(--background-secondary-a));
 }
 
-.userProfileInner__8ff35:not(:has([style*="/banners/"])) .userPanelOverlayBackground_a2b6ae {
+.userProfileInner__8ff35:not(:has([style*="/banners/"])) .overlayBackground__345c9 {
     background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary)));
     border-left: var(--background-tertiary-border-variable-divider-a);
 	border-right: none;
@@ -152,6 +152,7 @@
     background-color: var(--window-color-calc, var(--background-secondary-a));
 }
 
+/*
 .accountProfileCard__744d8:not(:has([style*="/banners/"])) .avatar__6c108 {
     top: 16px;
     left: 16px;
@@ -159,12 +160,19 @@
     background-color: var(--profile-body-background-color);
     box-shadow: var(--elevation-medium);
 }
+*/
 
 /* [✔] 🠗 adjust profile in profilecard settings 🠗 */
+.accountProfileCard__744d8:not(:has([style*="/banners/"])) .avatar__6c108 {
+    padding: 3.5px;
+    box-shadow: var(--elevation-medium);
+}
+/*
 .accountProfileCard__744d8:has([style*="/banners/"]) .avatar__6c108 {
     padding: 3.5px;
     box-shadow: var(--elevation-medium);
 }
+*/
 
 
 .banner__6d414:not([style*="background-image"]),

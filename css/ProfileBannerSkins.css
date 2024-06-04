@@ -1,5 +1,5 @@
 /* ProfileBannerSkins */
-
+/*
 .theme-dark .userProfileInner__8ff35,
 .theme-dark .accountProfileCard__744d8 {
   --profile-body-background-color: rgba(0, 0, 0, 0.45);
@@ -188,7 +188,7 @@
 ) {
 	display: none;
 }
-
+*/
 .section__62b44:has(.note_ba0c31) textarea,
 .note__7a4f4 textarea, .note__7a4f4 textarea:focus {
   border: none;
