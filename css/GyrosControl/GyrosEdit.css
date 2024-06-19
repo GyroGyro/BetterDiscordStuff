@@ -607,9 +607,9 @@
 }
 
 .homeContent_e85cee .container_e3f878 .action_e3f878,
-.container_e3f878 .heading-lg-bold_f5eeaa,
+.container_e3f878 [class*="heading-lg/bold_dc00ef"],
 .container_b53f4f .row_b53f4f,
-.container_b53f4f .heading-lg-bold_f5eeaa {
+.container_b53f4f [class*="heading-lg/bold_dc00ef"] {
     margin-left: 12px;
 }
 
