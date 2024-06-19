@@ -11,7 +11,7 @@
 }
 
 /* servers */
-html:has(.container__7e23c[aria-label^='𝒸𝒽𝒾𝓁𝓁 𝓏𝑜𝓃𝑒 🌙']) .content__01e65:not(.container__03ec9, .container__3a30a):after {
+html:has(.container_ee69e0[aria-label^='𝒸𝒽𝒾𝓁𝓁 𝓏𝑜𝓃𝑒 🌙']) .content_a7d72e:not(.container_f1fd9c, .container_d20375):after {
     content: "";
     position: absolute;
     display: block;
@@ -25,13 +25,13 @@ html:has(.container__7e23c[aria-label^='𝒸𝒽𝒾𝓁𝓁 𝓏𝑜𝓃𝑒 �
 	filter: blur(var(--server-background-image-blur));
 }
 
-html:has(.container__7e23c[aria-label^='𝒸𝒽𝒾𝓁𝓁 𝓏𝑜𝓃𝑒 🌙']) .content__01e65:has(.container_b92032) .container_f79ab4 {
+html:has(.container_ee69e0[aria-label^='𝒸𝒽𝒾𝓁𝓁 𝓏𝑜𝓃𝑒 🌙']) .content_a7d72e:has(.container_a6d69a) .container_cbd271 {
 	background: var(--window-color-calc, var(--background-secondary-a));
 }
 
 /* ================================================================================================================== */
 
-html:has(.container__7e23c[aria-label^='Server for Gyro Control (']) .content__01e65:not(.container__03ec9, .container__3a30a):after {
+html:has(.container_ee69e0[aria-label^='Server for Gyro Control (']) .content_a7d72e:not(.container_f1fd9c, .container_d20375):after {
     content: "";
     position: absolute;
     display: block;
@@ -45,6 +45,6 @@ html:has(.container__7e23c[aria-label^='Server for Gyro Control (']) .content__0
 	filter: blur(var(--server-background-image-blur));
 }
 
-html:has(.container__7e23c[aria-label^='Server for Gyro Control (']) .content__01e65:has(.container_b92032) .container_f79ab4 {
+html:has(.container_ee69e0[aria-label^='Server for Gyro Control (']) .content_a7d72e:has(.container_a6d69a) .container_cbd271 {
 	background: var(--window-color-calc, var(--background-secondary-a));
 }

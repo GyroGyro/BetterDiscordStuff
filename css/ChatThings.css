@@ -2,7 +2,7 @@
 @import url(https://gyrogyro.github.io/BetterDiscordStuff/css/ChatBubbles.css);
 
 /* Chat Polls */
-.defaultTextInputWrapper__87159 {
+.defaultTextInputWrapper_d274ca {
     display: flex;
     align-items: stretch;
     overflow: hidden;
@@ -12,7 +12,7 @@
     transition: border-color.2s ease-in-out;
 }
 
-.addAnswerButton__1308f {
+.addAnswerButton_f24a96 {
     display: flex;
     align-items: center;
     box-sizing: border-box;
@@ -22,7 +22,7 @@
     cursor: pointer;
 }
 
-.addAnswerButton__1308f:hover {
+.addAnswerButton_f24a96:hover {
     display: flex;
     align-items: center;
     box-sizing: border-box;
@@ -32,7 +32,7 @@
     cursor: pointer;
 }
 
-.container__0bd59.normalStylesDefault__1c2f5.pollContainer_cfb8c7 {
+.container_a1531c.normalStylesDefault_b5cb3c.pollContainer_b558d0 {
     background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary)));
     background-size: calc(var(--chat-bubble) * 1px);
     padding: calc(7px * var(--chat-bubble)) calc(12px * var(--chat-bubble));
@@ -41,47 +41,47 @@
     box-shadow: 0 calc(4px * var(--chat-bubble)) calc(4px * var(--chat-bubble)) rgba(0, 0, 0, calc(0.16 * var(--chat-bubble)));
 }
 
-.answer__07489 {
+.answer_cf2c85 {
     background: linear-gradient(var(--brand-experiment-05a), var(--brand-experiment-05a));
     background-size: calc(var(--chat-bubble) * 1px);
     border-radius: calc(8px * var(--chat-bubble));
     border: calc(1px * var(--chat-bubble)) solid var(--brand-experiment);
 }
 
-.answer__07489 .answerInner_b97752.currentlyVoting__54b47.selected__93ede,
-.answer__07489 .answerInner_b97752 {
+.answer_cf2c85 .answerInner_cf2c85.currentlyVoting_cf2c85.selected_cf2c85,
+.answer_cf2c85 .answerInner_cf2c85 {
     outline: 1px solid var(--brand-experiment)
 }
 
-.answerSelectionIcon__262f4 path[d="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm5.7-13.3a1 1 0 0 0-1.4-1.4L10 14.58l-2.3-2.3a1 1 0 0 0-1.4 1.42l3 3a1 1 0 0 0 1.4 0l7-7Z"] {
+.answerSelectionIcon_cf2c85 path[d="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm5.7-13.3a1 1 0 0 0-1.4-1.4L10 14.58l-2.3-2.3a1 1 0 0 0-1.4 1.42l3 3a1 1 0 0 0 1.4 0l7-7Z"] {
     fill: var(--brand-experiment);
 }
 
-.checkboxSelected_a7ac08 {
+.checkboxSelected_b97e9a {
     background-color: var(--brand-experiment);
 }
 
-.badgesContainer_b247d3 .badge_b37eda {
+.badgesContainer_ec86aa .badge_b37eda {
     background: var(--brand-experiment);
     color: var(--white-500);
 }
 
 
 /* quest invite in chat */
-.questsCard__20ba2 {
+.questsCard_c366aa {
     border-radius: calc(8px * var(--chat-bubble));
     border: calc(1px * var(--chat-bubble)) solid var(--chat-bubble-border-color, var(--background-primary-border-color));
     box-shadow: 0 calc(4px * var(--chat-bubble)) calc(4px * var(--chat-bubble)) rgba(0, 0, 0, calc(0.16 * var(--chat-bubble)));
 }
 
-.container__62863 .questsCard__20ba2 .outerContainer_a76fe9 {
+.container_b558d0 .questsCard_c366aa .outerContainer_d7df05 {
     background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary)));
     background-size: calc(var(--chat-bubble) * 1px);
 }
 
 
 /* activities invite in chat */
-.wrapper__8a5dd:has(.info__531e8).content__36bc0 {
+.wrapper_b9fe76:has(.info_c48f1e).content_c48f1e {
     border-right-radius: calc(8px * var(--chat-bubble));
     border: calc(1px * var(--chat-bubble)) solid var(--chat-bubble-border-color, var(--background-primary-border-color));
     box-shadow: 0 calc(4px * var(--chat-bubble)) calc(4px * var(--chat-bubble)) rgba(0, 0, 0, calc(0.16 * var(--chat-bubble)));
@@ -91,7 +91,7 @@
 
 
 /* referral nitro gift */
-.referralContainer__44aad > .container_c8c45b {
+.referralContainer_b558d0 > .container_b5b752 {
     border-radius: calc(8px * var(--chat-bubble));
     border: calc(1px * var(--chat-bubble)) solid var(--chat-bubble-border-color, var(--background-primary-border-color));
     box-shadow: 0 calc(4px * var(--chat-bubble)) calc(4px * var(--chat-bubble)) rgba(0, 0, 0, calc(0.16 * var(--chat-bubble)));
@@ -101,7 +101,7 @@
 
 
 /* discord clips */
-.container__62863:has(.container__473f9) .container__473f9 {
+.container_b558d0:has(.container_c94b03) .container_c94b03 {
     border-radius: 0px 0px calc(8px * var(--chat-bubble)) calc(8px * var(--chat-bubble));
     border: calc(1px * var(--chat-bubble)) solid var(--chat-bubble-border-color, var(--background-primary-border-color));
     box-shadow: 0 calc(4px * var(--chat-bubble)) calc(4px * var(--chat-bubble)) rgba(0, 0, 0, calc(0.16 * var(--chat-bubble)));
