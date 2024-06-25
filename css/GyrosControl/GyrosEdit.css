@@ -5,12 +5,12 @@
 }
 
 /* [✔] 🠗 Change the text "connected to voice channel" 🠗 */
-.rtcConnectionStatusConnected_c0cb95 {
+.rtcConnectionStatusConnected_c02c63 {
     line-height: 0;
     font-size: 0;
 }
 
-.rtcConnectionStatusConnected_c0cb95::after {
+.rtcConnectionStatusConnected_c02c63::after {
     content: var(--voice-status-text);
     font-size: 16px;
     line-height: 20px;
