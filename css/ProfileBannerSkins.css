@@ -195,3 +195,11 @@
   background-color: transparent;
   border-radius: 6px;
 }
+
+.descriptionClamp_fc5c48:not(.headerText_d331f1 .descriptionClamp_fc5c48) {
+    -webkit-line-clamp: unset;
+    max-height: 112px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.viewFullBio_fc5c48{display: none;}
