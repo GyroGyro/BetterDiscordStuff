@@ -139,7 +139,15 @@
     box-shadow: var(--elevation-medium);
 }
 
-.userProfileInner_c69a7b:not(:has([style*="/banners/"])) .badgeList_ab525a {
+.userProfileInner_c69a7b:not(:has([style*="/banners/"])) .activity_cd74cc {
+    background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary)));
+    border-left: var(--background-tertiary-border-variable-divider-a);
+	border-right: none;
+    box-shadow: var(--elevation-medium);
+}
+
+
+.userProfileInner_c69a7b:not(:has([style*="/banners/"])) .container_e5a42d {
 	background: var(--window-color-calc, var(--background-secondary-a));
     box-shadow: var(--elevation-medium);
 }
