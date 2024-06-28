@@ -79,12 +79,14 @@
 .tabBar_b9fccc.top_a0:hover .themed_a0.item_a0 {
     border-bottom-color: transparent;
 }
+*/
 
 .userProfileInner_c69a7b .wrapper_c51b4e circle,
 .userProfileInner_c69a7b .wrapper_c51b4e rect[style] {
   fill: none;
 }
 
+/*
 .userProfileModalInner_c69a7b:not(:has(div[style*=image])) :where(
     .wrapper_c51b4e:not(.listAvatar_e4be58),
     .avatar_ec3b75
