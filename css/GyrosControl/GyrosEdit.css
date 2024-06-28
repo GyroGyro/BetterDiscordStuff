@@ -190,9 +190,23 @@
 
 
 /* [✔] 🠗 change account container 🠗 */
-#account[class*=menu-][role=menu]{
-	margin: 0px;
-	border: none;
+.accountProfilePopoutWrapper_b2ca13 .userPopoutInner_c69a7b:before,
+.accountProfilePopoutWrapper_b2ca13 .wrapper_cb78f1.biteSize_cb78f1,
+.accountProfilePopoutWrapper_b2ca13 .header_b07019,
+.accountProfilePopoutWrapper_b2ca13 .username_d4e7c2,
+.accountProfilePopoutWrapper_b2ca13 .body_d4e7c2 div:has(.descriptionClamp_fc5c48),
+.accountProfilePopoutWrapper_b2ca13 .activity_cd74cc,
+.accountProfilePopoutWrapper_b2ca13 .tags_c32acf,
+.accountProfilePopoutWrapper_b2ca13 .profileEffects_f867f9 {
+    display: none;
+}
+
+.accountProfilePopoutWrapper_b2ca13 .menus_d4e7c2 {
+    gap: 0px !important;
+}
+
+.accountProfilePopoutWrapper_b2ca13 .body_d4e7c2 {
+    padding: 0px;
 }
 
 .accountProfilePopoutWrapper_b2ca13 {
@@ -201,17 +215,15 @@
 
 .accountProfilePopoutWrapper_b2ca13 .userPopoutOuter_c69a7b {
     width: 220px;
+	padding: 0px 0px 0px 0px !important;
+	box-shadow: var(--elevation-stroke), var(--elevation-high);
+	height: 198px;
 }
 
 .accountProfilePopoutWrapper_b2ca13 .userPopoutOverlayBackground_c69a7b {
 	margin: 0px;
     background: none;
-}
-
-.accountProfilePopoutWrapper_b2ca13 .userPopoutInner_c69a7b> :not(.overlayBackground_c69a7b),
-.accountProfilePopoutWrapper_b2ca13 .overlayBackground_c69a7b> :not(#account),
-.accountProfilePopoutWrapper_b2ca13 #account>div>div>#account-divider-1 {
-    display: none;
+	padding: 0px 0px 0px 0px !important;
 }
 
 .accountProfilePopoutWrapper_b2ca13 .userPopoutOuter_c69a7b,
@@ -219,17 +231,19 @@
     background: none;
 }
 
-.userProfileInner_c69a7b:not(.userProfileModalOuter_c69a7b) {
-    border-left: var(--background-tertiary-border-variable-divider-a);
-	border-right: none;
-    box-shadow: var(--elevation-stroke), var(--elevation-high);
+.accountProfilePopoutWrapper_b2ca13 #status {
+    background-color: var(--background-floating-80a);
+    border: var(--background-floating-border);
+    box-shadow: none;
+	border-radius: 8px 8px 0px 0px;
+	border-bottom: none;
 }
 
-.accountProfilePopoutWrapper_b2ca13 .userProfileOuterThemed_c69a7b,
-.accountProfilePopoutWrapper_b2ca13 .userProfileOuterThemed_c69a7b {
-	margin: 0px;
-    background: none;
-	padding: 0px;
+.accountProfilePopoutWrapper_b2ca13 #account {
+    background-color: var(--background-floating-80a);
+    border: var(--background-floating-border);
+    box-shadow: none;
+	border-radius: 0px 0px 8px 8px;
 }
 
 
