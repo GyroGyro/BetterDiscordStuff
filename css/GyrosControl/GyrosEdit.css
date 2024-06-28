@@ -219,7 +219,7 @@
     width: 220px;
 	padding: 0px 0px 0px 0px !important;
 	box-shadow: var(--elevation-stroke), var(--elevation-high);
-	height: 198px;
+	height: 199px;
 }
 
 .accountProfilePopoutWrapper_b2ca13 .userPopoutOverlayBackground_c69a7b {
@@ -246,6 +246,14 @@
     border: var(--background-floating-border);
     box-shadow: none;
 	border-radius: 0px 0px 8px 8px;
+	border-top: none;
+}
+
+.accountProfilePopoutWrapper_b2ca13 .menu_d4e7c2:last-of-type [role="group"]:first-of-type::before {
+    content: "";
+    display: block;
+    margin: -4px 4px 8px 4px;
+    border-bottom: 1px solid var(--profile-body-divider-color);
 }
 
 
