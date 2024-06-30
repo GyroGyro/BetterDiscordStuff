@@ -708,15 +708,6 @@
 }
 
 
-/* [✔] 🠗 Temporary Fix 🠗 */
-#bd-modal-container {
-    color: transparent;
-}
-#bd-modal-container > * {
-    color: var(--header-secondary);
-}
-
-
 /* [✔] 🠗 Make app tag say bot again. idk what really makes these things "apps" now but okay 🠗 */
 .botTag_a02df3:not(.botTagAI_a02df3, .botTagOP_a02df3, .botTagRemix_a02df3, .decorator_c91bad) .botText_a02df3 {
     font-size: 0 !important;
@@ -806,7 +797,6 @@
 }
 
 
-
 /* [✔] 🠗 Recolors Prifile. (with no-premium banner) until ProfileBannerSkins.css is fully fixed 🠗 */
 .userProfileInner_c69a7b:has(.body_b07019):not(:has([style*="/banners/"])) {
 	background: var(--window-color-calc, var(--background-secondary-a));
@@ -835,4 +825,10 @@
 
 .userProfileInner_c69a7b:has(.body_b07019):not([style]) .avatarWrapper_f89da9 {
     background-color: var(--window-color-calc, var(--background-secondary-a));
+}
+
+
+/* [✔] 🠗 Change custom status color 🠗 */
+.hoverRoll_c0d6c6 .customStatus_b2ca13 {
+    color: var(--header-secondary) !important;
 }
