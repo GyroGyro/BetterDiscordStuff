@@ -200,7 +200,7 @@
 
 .descriptionClamp_fc5c48:not(.headerText_d331f1 .descriptionClamp_fc5c48) {
     -webkit-line-clamp: unset;
-    max-height: 112px;
+    max-height: unset !important;
     overflow-x: hidden;
     overflow-y: auto;
 }
