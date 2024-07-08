@@ -149,8 +149,8 @@
 }
 
 
-.userProfileInner_c69a7b:not(:has(#status)):not(:has([style*="/banners/"])) .container_e5a42d {
-	background: var(--window-color-calc, var(--background-secondary-a));
+.userProfileInner_c69a7b:has(.list_f9da1d):not(:has(#status)):not(:has([style*="/banners/"])) .container_e5a42d {
+    background: var(--window-color-calc, var(--background-secondary-a));
     box-shadow: var(--elevation-medium);
 }
 
