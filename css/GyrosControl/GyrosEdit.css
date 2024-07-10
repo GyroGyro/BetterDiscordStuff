@@ -455,9 +455,27 @@
 
 
 /* [✔] 🠗 New Username Tags 🠗 */
-.userPopoutInner_c69a7b .userTagUsername_c32acf:before,
-.fullSizeOuter_c69a7b .userTagUsername_c32acf:before {
-  content: "@";
+/* Add "@" before Username (Profiles) */
+:where([class^=userPopoutInner_], [class^=fullSizeOuter_], [class^=userPanelInner_]) [class^=userTagUsername_]::before {
+    content: "@";
+}
+
+/* Add "@" before Username (Friends list) */
+[class^=peopleListItem_] [class^=infoSpacing_]::before {
+    content: "@";
+}
+
+/* Add "@" before Username (Settings/My Account) */
+[class^=accountProfileCard_] [class^=field_]:nth-last-child(3) [class^=usernameInnerRow_]::before,
+[class^=panelSubtextContainer_] [class^=hoverRoll_] [class^=hovered_]::before {
+    content: "@";
+}
+
+/* Add "@" before Username (Mod View) */
+[class^=guildSidebar_] [class^=memberNameContainer_] [class="text-md/medium_dc00ef"]::before,
+[class^=sidebarContianer_] [class^=memberNameContainer_] [class="text-md/medium_dc00ef"]::before,
+[class^=table_] [class^=memberNameContainer_] [class="text-xs/normal_dc00ef"] span::before {
+    content: "@";
 }
 
 
