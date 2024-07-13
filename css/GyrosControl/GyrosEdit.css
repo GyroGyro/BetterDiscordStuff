@@ -553,20 +553,6 @@
 	border-radius: var(--window-border-radius-calc) var(--window-border-radius-calc) 0px 0px !important
 }
 
-.shop_e77fa3 .container_e44302:before {
-    content: "";
-    position: absolute;
-    display: block;
-    top: 50px;
-    left: 0;
-    right: 0;
-    height: 1px;
-    -webkit-box-shadow: var(--elevation-low);
-    box-shadow: var(--elevation-low);
-    z-index: 1;
-    pointer-events: none;
-}
-
 .shop_e77fa3:before {
     content: "";
     position: absolute;
