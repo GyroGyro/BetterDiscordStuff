@@ -5793,6 +5793,7 @@ html.app-focused .sidebar_c25c6d .selected_a0.item_a0:not([class*=disabled]):hov
   display: flex;
   align-items: center;
   top: 0;
+  height: 52px;
   width: auto;
   padding: 16px;
   margin-left: -41px;

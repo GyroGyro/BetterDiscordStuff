@@ -825,3 +825,48 @@
 .hoverRoll_c0d6c6 .customStatus_b2ca13 {
     color: var(--header-secondary) !important;
 }
+
+
+/* [✔] 🠗 Discord Settings searchbar 🠗 */
+.sidebar_c25c6d .searchBar_e7c031  {
+  box-shadow: var(--background-primary-box-shadow-border);
+  background-color: transparent;
+}
+
+.sidebar_c25c6d .searchBar_e7c031:focus-within {
+  box-shadow: var(--box-shadow-selection-50a);
+}
+
+.sidebar_c25c6d .searchBar_e7c031 .icon_effbe2 {
+  color: var(--interactive-normal);
+}
+
+.sidebar_c25c6d .searchBar_e7c031:not(:focus-within) .input_effbe2 {
+  box-shadow: none;
+  cursor: pointer !important;
+}
+
+.sidebar_c25c6d .searchBar_e7c031:not(:focus-within) .iconLayout_effbe2 {
+  cursor: pointer !important;
+}
+
+
+/* [✔] 🠗 Discord & BetterDiscord Settings title header 🠗 */
+.contentRegion_c25c6d:before {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    height: 52px;
+    z-index: 1;
+    pointer-events: none;
+    background-color: var(--background-accent-a);
+    box-shadow: var(--elevation-low-a);
+}
+
+.bd-settings-title .bd-search-wrapper,
+.bd-update-check,
+.bd-button .bd-button-content:has(path[d="M14 12c0-1.1-.9-2-2-2s-2 .9-2 2 .9 2 2 2 2-.9 2-2zm-2-9c-4.97 0-9 4.03-9 9H0l4 4 4-4H5c0-3.87 3.13-7 7-7s7 3.13 7 7-3.13 7-7 7c-1.51 0-2.91-.49-4.06-1.3l-1.42 1.44C8.04 20.3 9.94 21 12 21c4.97 0 9-4.03 9-9s-4.03-9-9-9z"]) {
+	display: none;
+}
