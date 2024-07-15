@@ -870,3 +870,23 @@
 .bd-button .bd-button-content:has(path[d="M14 12c0-1.1-.9-2-2-2s-2 .9-2 2 .9 2 2 2 2-.9 2-2zm-2-9c-4.97 0-9 4.03-9 9H0l4 4 4-4H5c0-3.87 3.13-7 7-7s7 3.13 7 7-3.13 7-7 7c-1.51 0-2.91-.49-4.06-1.3l-1.42 1.44C8.04 20.3 9.94 21 12 21c4.97 0 9-4.03 9-9s-4.03-9-9-9z"]) {
 	display: none;
 }
+
+
+/* [✔] 🠗 Image Carousel 🠗 */
+.carouselModal_d2b9a1:has(.arrow_b65c0b),
+.zoomedCarouselModalRoot_b586d2:has(.arrow_b65c0b) {
+	border: none !important;
+}
+
+.carouselModal_d2b9a1:has(.arrow_b65c0b) .wrapper_fb6520,
+.zoomedCarouselModalRoot_b586d2:has(.arrow_b65c0b) .wrapper_fb6520 {
+    border-radius: 8px;
+    border: var(--background-tertiary-border);
+}
+
+.nav_b6f1f8:has(.arrow_b65c0b) {
+    border-radius: 40%;
+    background-color: var(--background-modifier-accent);
+    border: var(--background-modifier-accent-border);
+	opacity: 1;
+}
