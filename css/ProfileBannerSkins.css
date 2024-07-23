@@ -153,6 +153,10 @@
 	border-radius: 6px;
 }
 
+.section_d7a21f:has(.note_c90ad7) {
+	display: none;
+}
+
 .note_c2dcc6 textarea:focus {
 	background: var(--bg-mod-faint) !important;
 	border-radius: var(--radius-xs);

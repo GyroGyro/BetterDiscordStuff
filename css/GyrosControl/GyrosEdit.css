@@ -130,15 +130,15 @@
 /* [✔] 🠗 Recolors Sideprofile. (no with premium banner) 🠗 */
 .userProfileInner_c69a7b:not(:has(#status)):not(:has([style*="/banners/"])),
 .userProfileInner_c69a7b:has(.botText_a9e77f) {
-	background: var(--window-color-calc, var(--background-secondary-a));
+	background: var(--window-color-calc, var(--background-secondary-a)) !important;
 }
 
 .userProfileInner_c69a7b:has(.list_f9da1d):not(:has(#status)):not(:has([style*="/banners/"])) .overlayBackground_c69a7b,
 .userProfileInner_c69a7b:has(.botText_a9e77f) .overlayBackground_c69a7b {
-    background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary)));
-    border-left: var(--background-tertiary-border-variable-divider-a);
-	border-right: none;
-    box-shadow: var(--elevation-medium);
+    background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary))) !important;
+    border-left: var(--background-tertiary-border-variable-divider-a) !important;
+	border-right: none !important;
+    box-shadow: var(--elevation-medium) !important;
 }
 
 .container_ecc60d:has(.footer_be6801) .userProfileInner_c69a7b:not(:has([style*="/banners/"])) .activity_cd74cc {
