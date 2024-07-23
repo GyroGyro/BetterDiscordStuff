@@ -128,7 +128,6 @@
 
 
 /* [✔] 🠗 Recolors Sideprofile. (no with premium banner) 🠗 */
-/* [✔] 🠗 Recolors Sideprofile. (no with premium banner) 🠗 */
 .userProfileInner_c69a7b:not(:has(#status)):not(:has([style*="/banners/"])),
 .userProfileInner_c69a7b:has(.botText_a02df3) {
 	background: var(--window-color-calc, var(--background-secondary-a));

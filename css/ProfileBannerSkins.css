@@ -177,6 +177,31 @@
 	border-top: none !important;
 }
 
+.statusBubble_d0a252,
+.statusBubbleOuter_d0a252:before,
+.statusBubbleOuter_d0a252:after {
+	background: rgba(0 0 0 / .5);
+	box-shadow: var(--elevation-low);
+}
+
+.statusBubbleOuter_d0a252:before {
+    content: "";
+    position: absolute;
+    top: -11px;
+    left: 10px;
+    display: block;
+    box-shadow: none;
+    border: 1px solid var(--border-faint);
+    border-radius: 8px 8px 0px 0px;
+    width: 19px;
+    height: 10px;
+	border-bottom: none !important;
+}
+
+.statusBubbleOuter_d0a252 {
+	background: transparent;
+}
+
 
 /*
 .theme-dark .userProfileInner_c69a7b,
