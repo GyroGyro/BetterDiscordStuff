@@ -129,12 +129,12 @@
 
 /* [✔] 🠗 Recolors Sideprofile. (no with premium banner) 🠗 */
 .userProfileInner_c69a7b:not(:has(#status)):not(:has([style*="/banners/"])),
-.userProfileInner_c69a7b:has(.botText_a02df3) {
+.userProfileInner_c69a7b:has(.botText_a9e77f) {
 	background: var(--window-color-calc, var(--background-secondary-a));
 }
 
 .userProfileInner_c69a7b:has(.list_f9da1d):not(:has(#status)):not(:has([style*="/banners/"])) .overlayBackground_c69a7b,
-.userProfileInner_c69a7b:has(.botText_a02df3) .overlayBackground_c69a7b {
+.userProfileInner_c69a7b:has(.botText_a9e77f) .overlayBackground_c69a7b {
     background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary)));
     border-left: var(--background-tertiary-border-variable-divider-a);
 	border-right: none;
@@ -633,7 +633,7 @@
     height: 20px;
 }
 
-.content_cdc675 .icons_cdc675 .gameIcon_f394e5 {
+.content_cdc675 .icons_cdc675 .gameIcon_a9e62c {
     filter: saturate(1);
     filter: saturate(var(--saturation-factor,1));
     -webkit-user-drag: none;
@@ -732,11 +732,11 @@
 
 
 /* [✔] 🠗 Make app tag say bot again. idk what really makes these things "apps" now but okay 🠗 */
-.botTag_a02df3:not(.botTagAI_a02df3, .botTagOP_a02df3, .botTagRemix_a02df3, .decorator_c91bad) .botText_a02df3 {
+.botTag_a9e77f:not(.botTagAI_a9e77f, .botTagOP_a9e77f, .botTagRemix_a9e77f, .decorator_c91bad) .botText_a9e77f {
     font-size: 0 !important;
     line-height: 0 !important;
 }
-.botTag_a02df3:not(.botTagAI_a02df3, .botTagOP_a02df3, .botTagRemix_a02df3, .decorator_c91bad) .botText_a02df3:before {
+.botTag_a9e77f:not(.botTagAI_a9e77f, .botTagOP_a9e77f, .botTagRemix_a9e77f, .decorator_c91bad) .botText_a9e77f:before {
     content: "Bot";
     font-size: 0.625rem;
     line-height: 1.3;
@@ -872,18 +872,18 @@
 
 
 /* [✔] 🠗 Image Carousel 🠗 */
-.carouselModal_d2b9a1:has(.arrow_b65c0b),
-.zoomedCarouselModalRoot_b586d2:has(.arrow_b65c0b) {
+.carouselModal_d2b9a1:has(.arrow_ad2a08),
+.zoomedCarouselModalRoot_b586d2:has(.arrow_ad2a08) {
 	border: none !important;
 }
 
-.carouselModal_d2b9a1:has(.arrow_b65c0b) .wrapper_fb6520,
-.zoomedCarouselModalRoot_b586d2:has(.arrow_b65c0b) .wrapper_fb6520 {
+.carouselModal_d2b9a1:has(.arrow_ad2a08) .wrapper_fb6520,
+.zoomedCarouselModalRoot_b586d2:has(.arrow_ad2a08) .wrapper_fb6520 {
     border-radius: 8px;
     border: var(--background-tertiary-border);
 }
 
-.nav_b6f1f8:has(.arrow_b65c0b) {
+.nav_b6f1f8:has(.arrow_ad2a08) {
     border-radius: 40%;
     background-color: var(--background-modifier-accent);
     border: var(--background-modifier-accent-border);

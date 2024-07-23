@@ -57,7 +57,7 @@
     position: relative;
 }
 
-.arrowContainer_b65c0b {
+.arrowContainer_ad2a08 {
     top: unset;
     -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -67,7 +67,7 @@
     visibility: hidden;
 }
 
-.carouselModal-1eUFoq:hover .arrowContainer_b65c0b {
+.carouselModal-1eUFoq:hover .arrowContainer_ad2a08 {
     visibility: visible;
 }
 
@@ -82,7 +82,7 @@
 /* usermodal */
 .userProfileModalInner_c69a7b,
 /* expanded text file */
-.modalContent_ad9cbd,
+.modalContent_d8e2d0,
 /* auth modal */
 .authorize_c5a065 {
     max-height: 80vh;
