@@ -165,6 +165,27 @@
     border-left: var(--background-tertiary-border-variable-divider-a);
 }
 
+
+/* [✔] 🠗 small fixes for side-profile when is impossible to load profile (no with premium banner) 🠗 */
+.container_ecc60d:has(.footer_be6801) .body_e9e42f {
+	background: none !important;
+}
+.container_ecc60d:has(.footer_be6801):not(:has([style*="/banners/"])) .overlayBackground_c69a7b {
+    background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary))) !important;
+    border-left: var(--background-tertiary-border-variable-divider-a) !important;
+	border-right: none !important;
+    box-shadow: var(--elevation-medium) !important;
+}
+
+.container_ecc60d:has(.footer_be6801):not(:has([style*="/banners/"])) .bannerSVGWrapper_b32cc2 {
+    overflow: hidden !important;
+}
+
+.container_ecc60d:has(.footer_be6801) .wrapper_c51b4e::before {
+    background-color: var(--window-color-calc, var(--background-secondary-a)) !important;
+	box-shadow: none !important;
+}
+
 /* [✔] 🠗 adjust profile in profilecard settings 🠗 */
 .accountProfileCard_b69b77:not(:has([style*="/banners/"])) .avatar_b69b77 {
     padding: 3.5px;
