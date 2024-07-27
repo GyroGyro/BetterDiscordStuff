@@ -910,3 +910,21 @@
     border: var(--background-modifier-accent-border);
 	opacity: 1;
 }
+
+
+/* [✔] 🠗 new connect account and user activity on big profile 🠗 */
+.body_bc9cc2 .connectedAccountContainer_f3eb60 {
+    margin-top: 12px;
+    background-color: var(--bg-mod-faint);
+    border: var(--border-faint);
+    border-radius: 8px;
+}
+
+.body_bc9cc2 .userProfileActivity_fc39e7 {
+    position: relative;
+    padding: 8px;
+    border-radius: 8px;
+    background: var(--bg-mod-faint);
+	border: var(--border-faint);
+	margin: 16px 16px;
+}
