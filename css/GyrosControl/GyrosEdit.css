@@ -741,7 +741,11 @@
 /* [✔] 🠗 Channel & Roles 🠗 */
 .content_a7d72e:has(.profile_c6b11b)
 .chat_a7d72e:has(.profile_c6b11b)  {
-    border: none !important
+    border: none !important;
+}
+
+.container_f1fd9c, .header_f1fd9c {
+    background-color: var(--window-color-calc, var(--background-secondary-a)) !important;
 }
 
 .profile_c6b11b .profileCard_c6b11b,
