@@ -186,6 +186,11 @@
 	box-shadow: none !important;
 }
 
+.profileBadges_f89da9 {
+	background: var(--window-color-calc, var(--background-secondary-a));
+    box-shadow: var(--elevation-medium);
+}
+
 /* [✔] 🠗 adjust profile in profilecard settings 🠗 */
 .accountProfileCard_b69b77:not(:has([style*="/banners/"])) .avatar_b69b77 {
     padding: 3.5px;
@@ -744,12 +749,13 @@
     border: none !important;
 }
 
+.pageBody_c2efea,
 .container_f1fd9c, .header_f1fd9c {
     background-color: var(--window-color-calc, var(--background-secondary-a)) !important;
 }
 
 .profile_c6b11b .profileCard_c6b11b,
-.pageBody_c6b11b .prompt_c6b11b {
+.pageBody_c2efea .prompt_c6b11b {
 	border-radius: 8px;
 	border: var(--background-tertiary-border) !important;
 	box-shadow: var(--dark-elevation-border), var(--dark-elevation-high);
