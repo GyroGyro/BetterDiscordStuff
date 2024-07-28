@@ -260,9 +260,9 @@
 }
 
 .accountProfilePopoutWrapper_b2ca13 .userPopoutOuter_c69a7b {
-    width: 220px;
+    width: 240px !important;
 	padding: 0px 0px 0px 0px !important;
-	height: 199px;
+	height: 204px !important;
 }
 
 .accountProfilePopoutWrapper_b2ca13 .userPopoutOverlayBackground_c69a7b {
@@ -271,8 +271,11 @@
 }
 
 .accountProfilePopoutWrapper_b2ca13 .userPopoutOuter_c69a7b,
-.accountProfilePopoutWrapper_b2ca13 .userPopoutInner_c69a7b {
-    background: none;
+.accountProfilePopoutWrapper_b2ca13 .userPopoutInner_c69a7b,
+.accountProfilePopoutWrapper_b2ca13 .body_ad5fac {
+    background: none !important;
+	box-shadow: none !important;
+	backdrop-filter: none !important;
 }
 
 .accountProfilePopoutWrapper_b2ca13 #status {
