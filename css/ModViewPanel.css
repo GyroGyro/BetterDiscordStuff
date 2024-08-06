@@ -16,27 +16,27 @@
 }
 
 /* Moderator View Sidepanel */
-.sidebarContianer_d2194f {
+.sidebarContainer_d2194f {
     display: flex;
     flex-direction: column;
     margin: 0;
     height: 100%;
 }
 
-.sidebarContianer_d2194f .userProfileOuterThemed_c69a7b.userProfileOuter_c69a7b,
-.sidebarContianer_d2194f .userProfileInnerThemedPremiumWithoutBanner_c69a7b,
-.sidebarContianer_d2194f .userProfileInner_c69a7b:not(:has([style*="/banners/"])) {
+.sidebarContainer_d2194f .userProfileOuterThemed_c69a7b.userProfileOuter_c69a7b,
+.sidebarContainer_d2194f .userProfileInnerThemedPremiumWithoutBanner_c69a7b,
+.sidebarContainer_d2194f .userProfileInner_c69a7b:not(:has([style*="/banners/"])) {
     background: var(--background-secondary-a) !important;
 }
 
-.sidebarContianer_d2194f .userProfileInner_c69a7b,
-.sidebarContianer_d2194f .userProfileInner_c69a7b:before {
+.sidebarContainer_d2194f .userProfileInner_c69a7b,
+.sidebarContainer_d2194f .userProfileInner_c69a7b:before {
     background-color: var(--background-secondary-a) !important;
 	border: none !important;
 	box-shadow: none !important;
 }
 
-.sidebarContianer_d2194f .userProfileOuterThemed_c69a7b.userProfileOuter_c69a7b {
+.sidebarContainer_d2194f .userProfileOuterThemed_c69a7b.userProfileOuter_c69a7b {
     border-radius: 0px var(--window-border-radius-calc) var(--window-border-radius-calc) 0px;
     background-color: var(--background-secondary-a);
     border: var(--background-tertiary-border-variable-divider-a);

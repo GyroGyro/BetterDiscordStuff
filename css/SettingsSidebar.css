@@ -211,7 +211,7 @@
     flex-direction: column;
 }
 
-#my-account-tab .flexChild_bba380:not(img) {
+#my-account-tab .flexChild_dc333f:not(img) {
     width: 100%;
 }
 
@@ -224,7 +224,7 @@
     margin-left: 0;
 }
 
-#streamer-mode-tab .formNotice-2nS8ey .flex_bba380 {
+#streamer-mode-tab .formNotice-2nS8ey .flex_dc333f {
     flex-direction: column;
 }
 
@@ -232,19 +232,19 @@
     flex-wrap: wrap;
 }
 
-.contentRegion_c25c6d .flex_bba380.horizontal_bba380:not(.layout__88e96, .iconWrapper_d5408a, .headerInfo_f0135d) {
+.contentRegion_c25c6d .flex_dc333f.horizontal_dc333f:not(.layout__88e96, .iconWrapper_d5408a, .headerInfo_f0135d) {
     grid-template-columns: repeat(auto-fill, 100%);
     display: grid;
 }
 
-.horizontal_bba380>.flex_bba380,
-.horizontal_bba380:not(.headerInfo_f0135d)>.flexChild_bba380 {
+.horizontal_dc333f>.flex_dc333f,
+.horizontal_dc333f:not(.headerInfo_f0135d)>.flexChild_dc333f {
     margin-left: 0;
     margin-right: 0;
 }
 
-.horizontal_bba380>.flex_bba380:not(:first-child),
-.horizontal_bba380:not(.headerInfo_f0135d)>.flexChild_bba380:not(:first-child) {
+.horizontal_dc333f>.flex_dc333f:not(:first-child),
+.horizontal_dc333f:not(.headerInfo_f0135d)>.flexChild_dc333f:not(:first-child) {
     margin-top: 8px;
 }
 
@@ -506,18 +506,18 @@ img.infoItem_aad57c {
     margin: 0 2px;
 }
 
-.repoList-9JnAPs.contentRegion_c25c6d .flex_bba380.tabBarContainer-sCZC4w {
+.repoList-9JnAPs.contentRegion_c25c6d .flex_dc333f.tabBarContainer-sCZC4w {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.repoList-9JnAPs.contentRegion_c25c6d .flex_bba380.quickSelect__540d0 {
+.repoList-9JnAPs.contentRegion_c25c6d .flex_dc333f.quickSelect__540d0 {
     display: flex;
     align-items: center;
 }
 
-.repoList-9JnAPs.contentRegion_c25c6d .flex_bba380.quickSelectClick_eec93f {
+.repoList-9JnAPs.contentRegion_c25c6d .flex_dc333f.quickSelectClick_eec93f {
     display: flex;
     margin-top: 0;
 }
@@ -530,7 +530,7 @@ img.infoItem_aad57c {
     white-space: normal !important;
 }
 
-#pluginrepo-tab .settingsRow-o9Ft44 .flexChild_bba380 {
+#pluginrepo-tab .settingsRow-o9Ft44 .flexChild_dc333f {
     width: auto;
 }
 
