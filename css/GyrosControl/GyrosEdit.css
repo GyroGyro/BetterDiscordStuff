@@ -133,7 +133,7 @@
 	background: var(--window-color-calc, var(--background-secondary-a)) !important;
 }
 
-.userProfileInner_c69a7b:has(.list_f9da1d):not(:has(#status)):not(:has([style*="/banners/"])) .overlayBackground_c69a7b,
+.userProfileInner_c69a7b:has(.footer_ecc60d):not(:has(#status)):not(:has([style*="/banners/"])) .overlayBackground_c69a7b,
 .userProfileInner_c69a7b:has(.botText_a9e77f) .overlayBackground_c69a7b {
     background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary))) !important;
     border-left: var(--background-tertiary-border-variable-divider-a) !important;
@@ -148,7 +148,7 @@
     box-shadow: var(--elevation-medium);
 }
 
-.userProfileInner_c69a7b:has(.list_f9da1d):not(:has(#status)):not(:has([style*="/banners/"])) .container_e5a42d {
+.userProfileInner_c69a7b:has(.footer_ecc60d):not(:has(#status)):not(:has([style*="/banners/"])) .container_e5a42d {
     background: var(--window-color-calc, var(--background-secondary-a));
     box-shadow: var(--elevation-medium);
 }
