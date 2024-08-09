@@ -191,6 +191,7 @@
     box-shadow: var(--elevation-medium);
 }
 
+
 /* [✔] 🠗 adjust profile in profilecard settings 🠗 */
 .accountProfileCard_b69b77:not(:has([style*="/banners/"])) .avatar_b69b77 {
     padding: 3.5px;
