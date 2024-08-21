@@ -225,10 +225,10 @@
 .accountProfilePopoutWrapper_b2ca13 .header_b07019,
 .accountProfilePopoutWrapper_b2ca13 .username_ad5fac,
 .accountProfilePopoutWrapper_b2ca13 .body_ad5fac div:has(.descriptionClamp_fc5c48),
-.accountProfilePopoutWrapper_b2ca13 .activity_cd74cc,
+.accountProfilePopoutWrapper_b2ca13 .card_ae1fa2,
 .accountProfilePopoutWrapper_b2ca13 .tags_c32acf,
 .accountProfilePopoutWrapper_b2ca13 .profileEffects_f867f9 {
-    display: none;
+    display: none
 }
 
 .accountProfilePopoutWrapper_b2ca13 .menus_ad5fac {
@@ -941,4 +941,10 @@
     background: var(--bg-mod-faint);
 	border: var(--border-faint);
 	margin: 16px 16px;
+}
+
+
+/* [✔] 🠗 removed activity buttons from chat 🠗 */
+.channelAppLauncher_df39bd {
+	display: none;
 }
