@@ -952,3 +952,9 @@
 .channelAppLauncher_df39bd {
 	display: none;
 }
+
+
+/* [✔] 🠗 temporary fixed the resizeHandle gap between main chat and opened thread 🠗 */
+.content_a4d4d9:has(.resizeHandle_d1c246) .chat_a7d72e.threadSidebarOpen_a7d72e:not(.threadSidebarFloating_a7d72e) {
+	margin-right: -6px;
+}
