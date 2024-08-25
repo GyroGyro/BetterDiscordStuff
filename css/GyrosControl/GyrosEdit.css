@@ -169,7 +169,14 @@
 /* [✔] 🠗 small fixes for side-profile when is impossible to load profile (no with premium banner) 🠗 */
 .container_ecc60d:has(.footer_ecc60d) .body_e9e42f {
 	background: none !important;
+	border: none !important;
+	box-shadow: none !important;
 }
+
+.container_ecc60d:has(.footer_ecc60d) .collapseBtn_ce1058 {
+	background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary))) !important;
+}
+
 .container_ecc60d:has(.footer_ecc60d) .userProfileInner_c69a7b:not(:has([style*="/banners/"])) .activity_cd74cc  {
     background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary)));
     border-left: var(--background-tertiary-border-variable-divider-a);
