@@ -173,7 +173,7 @@
 	box-shadow: none !important;
 }
 
-.container_ecc60d:has(.footer_ecc60d) .collapseBtn_ce1058 {
+.container_ecc60d:has(.footer_ecc60d) .userProfileInner_c69a7b:not(:has([style*="/banners/"])) .collapseBtn_ce1058 {
 	background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary))) !important;
 }
 
