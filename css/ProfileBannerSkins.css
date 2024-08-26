@@ -68,6 +68,10 @@
         display: none;
     }
 
+    :where(.banner_c3e427):before {
+        display: none;
+    }
+
     .body_b07019,
         .body_ad5fac,
         .body_c4213b,
