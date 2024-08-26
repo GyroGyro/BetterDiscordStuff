@@ -140,6 +140,13 @@
 
 
 
+.role_f9575e,
+.showMoreButton_c83b44.pill_c83b44,
+.button_dd4f85[aria-label^="Aggiungi ruolo"] {
+	background: var(--bg-mod-faint);
+	border-radius: var(--radius-xs);
+	border: 1px solid var(--border-faint);
+}
 
 .userProfileInner_c69a7b .wrapper_c51b4e circle,
 .userProfileInner_c69a7b .wrapper_c51b4e rect[style] {
