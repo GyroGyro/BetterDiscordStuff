@@ -965,3 +965,58 @@
 .content_a4d4d9:has(.resizeHandle_d1c246) .chat_a7d72e.threadSidebarOpen_a7d72e:not(.threadSidebarFloating_a7d72e) {
 	margin-right: -6px;
 }
+
+
+/* [✔] 🠗 New missions page redesigned 🠗 */
+.container_a56260 {
+    border-radius: var(--window-border-radius-calc);
+    background: var(--background-tertiary-a) !important;
+    border-left: var(--background-tertiary-border-variable-divider-a);
+    border-bottom: var(--background-tertiary-border-variable-width-a);
+    border-right: var(--background-tertiary-border-variable-width-a);
+    -webkit-backdrop-filter: blur(var(--window-blur-calc));
+    backdrop-filter: blur(var(--window-blur-calc));
+}
+
+.container_fc867b .headerBar_accde0 {
+    border-radius: var(--window-border-radius-calc) var(--window-border-radius-calc) 0 0;
+    border-left: var(--background-tertiary-border-variable-divider-a);
+    border-top: var(--background-tertiary-border-variable-width-a);
+    border-right: var(--background-tertiary-border-variable-width-a);
+    -webkit-box-shadow: var(--elevation-low);
+    box-shadow: var(--elevation-low);
+    background: var(--window-color-calc, var(--background-accent-a)) !important;
+}
+
+.container_fc867b {
+	border-radius: var(--window-border-radius-calc);
+}
+
+.theme-dark .contentContainer_a56260 {
+	margin-top: 80px;
+	background: var(--background-tertiary-a) !important;
+}
+
+.icon_accde0 path[d="M7.5 21.7a8.95 8.95 0 0 1 9 0 1 1 0 0 0 1-1.73c-.6-.35-1.24-.64-1.9-.87.54-.3 1.05-.65 1.52-1.07a3.98 3.98 0 0 0 5.49-1.8.77.77 0 0 0-.24-.95 3.98 3.98 0 0 0-2.02-.76A4 4 0 0 0 23 10.47a.76.76 0 0 0-.71-.71 4.06 4.06 0 0 0-1.6.22 3.99 3.99 0 0 0 .54-5.35.77.77 0 0 0-.95-.24c-.75.36-1.37.95-1.77 1.67V6a4 4 0 0 0-4.9-3.9.77.77 0 0 0-.6.72 4 4 0 0 0 3.7 4.17c.89 1.3 1.3 2.95 1.3 4.51 0 3.66-2.75 6.5-6 6.5s-6-2.84-6-6.5c0-1.56.41-3.21 1.3-4.51A4 4 0 0 0 11 2.82a.77.77 0 0 0-.6-.72 4.01 4.01 0 0 0-4.9 3.96A4.02 4.02 0 0 0 3.73 4.4a.77.77 0 0 0-.95.24 3.98 3.98 0 0 0 .55 5.35 4 4 0 0 0-1.6-.22.76.76 0 0 0-.72.71l-.01.28a4 4 0 0 0 2.65 3.77c-.75.06-1.45.33-2.02.76-.3.22-.4.62-.24.95a4 4 0 0 0 5.49 1.8c.47.42.98.78 1.53 1.07-.67.23-1.3.52-1.91.87a1 1 0 1 0 1 1.73Z"]{
+	fill: var(--brand-experiment);
+}
+
+.container_fc867b .bannerImage_fc867b,
+.container_fc867b .bannerContainer_fc867b,
+.container_fc867b .backdrop_accde0 {
+	display: none;
+}
+
+.questTile_ad4620 {
+    background-color: var(--background-primary);
+    border: var(--background-primary-border);
+}
+
+.container_c2d7e2,
+.rewardDescriptionContainer_c2d7e2 {
+    background-color: var(--background-primary);
+}
+
+.content_a4d4d9:has(.container_a56260) .sidebarContainer_a3a4ce {
+	background: none;
+}
