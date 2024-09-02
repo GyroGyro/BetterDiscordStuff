@@ -1020,3 +1020,10 @@
 .content_a4d4d9:has(.container_a56260) .sidebarContainer_a3a4ce {
 	background: none;
 }
+
+
+/* [✔] 🠗 Removes activities list from top of member list 🠗 */
+.membersGroup_cbd271:has(+ div .openOnHover_c64476),
+.content_eed6a8 > div:has(div > .openOnHover_c64476) {
+  display: none;
+}
