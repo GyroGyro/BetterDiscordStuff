@@ -447,50 +447,41 @@
 	border-right: var(--background-secondary-border);
 }
 
+
 /* [✔] 🠗 Discord Activities 🠗 */
-.root_f9a4c9.fullscreenOnMobile_f9a4c9:not(:has(.container_c4a3bb)) > .header_f9a4c9 {
-    box-shadow: none !important;
-    background-color: var(--modal-background);
-    padding-top: 6px;
-    padding-bottom: 6px;
-    font-size: 14px;
-    justify-content: center;
-    text-align: center;
-    overflow: hidden;
-	border-bottom: var(--background-secondary-border);
-}
-
-.root_f9a4c9.fullscreenOnMobile_f9a4c9 > .header_f9a4c9 {
-    box-shadow: none !important;
-    background-color: var(--modal-background);
-    padding-top: 6px;
-    padding-bottom: 6px;
-    font-size: 14px;
-    justify-content: center;
-    text-align: center;
-    overflow: hidden;
-	border-bottom: none;
-}
-
-.container_c4a3bb {
+.container_c7c1c7 {
     background-color: var(--modal-background);
     padding-top: 6px;
 	border-bottom: var(--background-secondary-border);
 }
 
-.activityItem_d46b95:hover {
+.container_e5da8b:hover {
     background-color: var(--background-primary);
     box-shadow: var(--box-shadow-outer-2);
     border: var(--background-primary-border);
 }
 
-.activityItem_d46b95 {
+.container_e5da8b {
     box-shadow: var(--box-shadow-outer-2);
     border: var(--background-primary-border);
 }
 
-.scroller_f09e45 {
-	background: var(--modal-background);
+.appDetailsContainer_e5da8b {
+    background-color: var(--modal-background);
+}
+
+.container_e5da8b:hover .appDetailsContainer_e5da8b {
+    background-color: var(--background-primary);
+    box-shadow: var(--box-shadow-outer-2);
+}
+
+/* removes developer activities settings */
+.developerShelfControlsContainer_c7c1c7 {
+	display: none;
+}
+
+.container_e5da8b[aria-label^='lol lol'] {
+	display: none;
 }
 
 
@@ -1026,4 +1017,27 @@
 .membersGroup_cbd271:has(+ div .openOnHover_c64476),
 .content_eed6a8 > div:has(div > .openOnHover_c64476) {
   display: none;
+}
+
+
+/* [✔] 🠗 Removes pink nitro background from emoji and soundboard  🠗 */
+.nitroTopDividerContainer_e8f337,
+.nitroTopDividerUpper_e8f337,
+.nitroTopDividerShadow_e8f337,
+.nitroTopDividerLockContainer_e8f337,
+.nitroTopDividerLockBorder_e8f337,
+.nitroTopDividerLockCircle_e8f337,
+.nitroTopDividerLockBorderReversed_e8f337,
+.nitroTopDividerLower_e8f337,
+.sectionFooter_ca5acd,
+.nitroBottomDivider_a3bc57,
+.upsellContainerFloating_ad7baa {
+	display: none;
+	box-shadow: none;
+}
+
+.sectionContainerNitroLocked_ca5acd,
+.categorySectionNitroLocked_a3bc57,
+.soundRowNitroLocked_ca5acd {
+ background-color: transparent;
 }
