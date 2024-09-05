@@ -1,6 +1,6 @@
 /* ProfileBannerSkins */
 
-.userProfileOuterUnthemed_c69a7b:not(:has(.list_f9da1d, .botText_a9e77f)) {
+.userProfileOuterUnthemed_c69a7b:not(:has(.list_a8795b, .botText_a9e77f)) {
     &.theme-dark {
         --bg-mod-faint: rgba(0 0 0/.2);
         --border-faint: hsla(0, 0%, 100%, 0.12);
@@ -11,10 +11,10 @@
             background: rgba(0 0 0/.5);
         }
 
-        .body_b07019,
+        .body_b8cc6d,
         .body_ad5fac,
         .body_c4213b,
-        .body_e9e42f {
+        .body_a972fe {
             background: rgba(0 0 0/.5);
         }
     }
@@ -29,10 +29,10 @@
             background: rgba(255 255 255/.5);
         }
 
-        .body_b07019,
+        .body_b8cc6d,
         .body_ad5fac,
         .body_c4213b,
-        .body_e9e42f {
+        .body_a972fe {
             background: rgba(255 255 255/.5);
         }
     }
@@ -68,14 +68,14 @@
         display: none;
     }
 
-    :where(.banner_c3e427):before {
+    :where(.banner_d5fdb1):before {
         display: none;
     }
 
-    .body_b07019,
+    .body_b8cc6d,
         .body_ad5fac,
         .body_c4213b,
-        .body_e9e42f {
+        .body_a972fe {
         z-index: 2;
         padding: 4px 12px 8px;
         margin: 0 4px 0;
@@ -83,7 +83,7 @@
         box-shadow: none;
     }
 
-    .footer_b07019 {
+    .footer_b8cc6d {
         z-index: 2;
 		padding: 4px 12px 8px;
         margin: 0 4px 0;
@@ -98,7 +98,7 @@
 
 	}
 
-    .body_b07019:has(.nicknameIcons_c32acf path[d="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm1.44-15.94L13.06 14a1.06 1.06 0 0 1-2.12 0l-.38-6.94a1 1 0 0 1 1-1.06h.88a1 1 0 0 1 1 1.06Zm-.19 10.69a1.25 1.25 0 1 1-2.5 0 1.25 1.25 0 0 1 2.5 0Z"]) {
+    .body_b8cc6d:has(.nicknameIcons_c32acf path[d="M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm1.44-15.94L13.06 14a1.06 1.06 0 0 1-2.12 0l-.38-6.94a1 1 0 0 1 1-1.06h.88a1 1 0 0 1 1 1.06Zm-.19 10.69a1.25 1.25 0 1 1-2.5 0 1.25 1.25 0 0 1 2.5 0Z"]) {
         z-index: 2;
         padding: 4px 12px 8px;
         margin: 0 4px 0;
@@ -106,14 +106,14 @@
         box-shadow: none;
     }
 
-    .inner_dc0b43 {
+    .inner_c59af2 {
 		background: var(--bg-mod-faint) !important;
 		border-radius: var(--radius-xs);
 		border: 1px solid var(--border-faint);
     }
 
 
-    .body_bc9cc2 {
+    .body_b9fccc {
         background: rgba(0 0 0/.5);
         border-radius: var(--radius-sm);
         border: 1px solid var(--border-faint);
@@ -128,7 +128,7 @@
         border: none;
     }
 
-    .body_e9e42f {
+    .body_a972fe {
         position: relative;
     }
 
@@ -137,7 +137,7 @@
         background: var(--bg-mod-faint);
     }
 
-    .collapseBtn_ce1058 {
+    .collapseBtn_a4a127 {
         background: var(--bg-mod-faint);
     }
   }
@@ -145,7 +145,7 @@
 
 
 .role_f9575e,
-.showMoreButton_c83b44.pill_c83b44,
+.showMoreButton_c83b44.pill_e6f2d0,
 .button_dd4f85[aria-label^="Aggiungi ruolo"] {
 	background: var(--bg-mod-faint);
 	border-radius: var(--radius-xs);
@@ -157,8 +157,8 @@
   fill: none;
 }
 
-.note_c2dcc6 textarea,
-.note_c2dcc6 textarea:hover {
+.note_d53fbd textarea,
+.note_d53fbd textarea:hover {
 	border: none;
 	background-color: transparent;
 	border-radius: 6px;
@@ -168,26 +168,26 @@
 	display: none;
 }
 
-.note_c2dcc6 textarea:focus {
+.note_d53fbd textarea:focus {
 	background: var(--bg-mod-faint) !important;
 	border-radius: var(--radius-xs);
 	border: 1px solid var(--border-faint);
 }
 
-.descriptionClamp_fc5c48:not(.headerText_d331f1 .descriptionClamp_fc5c48) {
+.descriptionClamp_abaf7d:not(.headerText_d331f1 .descriptionClamp_abaf7d) {
     -webkit-line-clamp: unset;
     max-height: unset !important;
     overflow-x: hidden;
     overflow-y: auto;
 }
 
-.viewFullBio_fc5c48{
+.viewFullBio_abaf7d{
     display: none;
 }
 
 .userProfileInner_c69a7b .wrapper_cb78f1.biteSize_cb78f1 button,
 .userProfileInner_c69a7b .wrapper_cb78f1.fullSize_cb78f1 button,
-.userProfileInner_c69a7b .multipleButtons_fcef98 button {
+.userProfileInner_c69a7b .multipleButtons_e9f973 button {
 	background: rgba(0 0 0/.5) !important;
 	border-top: none !important;
 }
@@ -264,7 +264,7 @@
   border: none;
 }
 
-.wrapper_c51b4e.listAvatar_e4be58{
+.wrapper_c51b4e.listAvatar_d2d6cb{
   background: none !important;
   box-shadow: none !important;
 }
@@ -300,7 +300,7 @@
 }
 
 .userProfileModalInner_c69a7b:not(:has(div[style*=image])) :where(
-    .wrapper_c51b4e:not(.listAvatar_e4be58),
+    .wrapper_c51b4e:not(.listAvatar_d2d6cb),
     .avatar_ec3b75
 ) {
     background: var(--profile-body-background-color);

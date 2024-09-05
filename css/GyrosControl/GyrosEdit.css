@@ -133,7 +133,7 @@
 	background: var(--window-color-calc, var(--background-secondary-a)) !important;
 }
 
-.userProfileInner_c69a7b:has(.footer_ecc60d):not(:has(#status)):not(:has([style*="/banners/"])) .overlayBackground_c69a7b,
+.userProfileInner_c69a7b:has(.footer_a823cd):not(:has(#status)):not(:has([style*="/banners/"])) .overlayBackground_c69a7b,
 .userProfileInner_c69a7b:has(.botText_a9e77f) .overlayBackground_c69a7b {
     background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary))) !important;
     border-left: var(--background-tertiary-border-variable-divider-a) !important;
@@ -141,54 +141,54 @@
     box-shadow: var(--elevation-medium) !important;
 }
 
-.container_ecc60d:has(.footer_ecc60d) .userProfileInner_c69a7b:not(:has([style*="/banners/"])) .activity_cd74cc {
+.container_a823cd:has(.footer_a823cd) .userProfileInner_c69a7b:not(:has([style*="/banners/"])) .activity_f00225 {
     background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary)));
     border-left: var(--background-tertiary-border-variable-divider-a);
 	border-right: none;
     box-shadow: var(--elevation-medium);
 }
 
-.userProfileInner_c69a7b:has(.footer_ecc60d):not(:has(#status)):not(:has([style*="/banners/"])) .container_e5a42d {
+.userProfileInner_c69a7b:has(.footer_a823cd):not(:has(#status)):not(:has([style*="/banners/"])) .container_b64375 {
     background: var(--window-color-calc, var(--background-secondary-a));
     box-shadow: var(--elevation-medium);
 }
 
-.container_ecc60d:not(:has(#status)):not(:has([style*="/banners/"])) .bannerSVGWrapper_b32cc2 {
+.container_a823cd:not(:has(#status)):not(:has([style*="/banners/"])) .bannerSVGWrapper_b32cc2 {
     overflow: hidden;
 }
 
-.container_ecc60d:not(:has(#status)) .userProfileInner_c69a7b:not([style]) .avatarWrapper_f89da9 {
+.container_a823cd:not(:has(#status)) .userProfileInner_c69a7b:not([style]) .avatarWrapper_f89da9 {
     background-color: var(--window-color-calc, var(--background-secondary-a));
 }
 
-.container_ecc60d:not(:has(#status)) {
+.container_a823cd:not(:has(#status)) {
     border-left: var(--background-tertiary-border-variable-divider-a);
 }
 
 
 /* [✔] 🠗 small fixes for side-profile when is impossible to load profile (no with premium banner) 🠗 */
-.container_ecc60d:has(.footer_ecc60d) .body_e9e42f {
+.container_a823cd:has(.footer_a823cd) .body_a972fe {
 	background: none !important;
 	border: none !important;
 	box-shadow: none !important;
 }
 
-.container_ecc60d:has(.footer_ecc60d) .userProfileInner_c69a7b:not(:has([style*="/banners/"])) .collapseBtn_ce1058 {
+.container_a823cd:has(.footer_a823cd) .userProfileInner_c69a7b:not(:has([style*="/banners/"])) .collapseBtn_a4a127 {
 	background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary))) !important;
 }
 
-.container_ecc60d:has(.footer_ecc60d) .userProfileInner_c69a7b:not(:has([style*="/banners/"])) .activity_cd74cc  {
+.container_a823cd:has(.footer_a823cd) .userProfileInner_c69a7b:not(:has([style*="/banners/"])) .activity_f00225  {
     background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary)));
     border-left: var(--background-tertiary-border-variable-divider-a);
 	border-right: none;
     box-shadow: var(--elevation-medium);
 }
 
-.container_ecc60d:has(.footer_ecc60d):not(:has([style*="/banners/"])) .bannerSVGWrapper_b32cc2 {
+.container_a823cd:has(.footer_a823cd):not(:has([style*="/banners/"])) .bannerSVGWrapper_b32cc2 {
     overflow: hidden !important;
 }
 
-.container_ecc60d:has(.footer_ecc60d) .wrapper_c51b4e::before {
+.container_a823cd:has(.footer_a823cd) .wrapper_c51b4e::before {
     background-color: var(--window-color-calc, var(--background-secondary-a)) !important;
 	box-shadow: none !important;
 }
@@ -210,7 +210,7 @@
     box-shadow: var(--elevation-medium);
 }
 
-.banner_c3e427:not([style*="background-image"]),
+.banner_d5fdb1:not([style*="background-image"]),
 .banner_ab876d:not([style*="background-image"]) {
     height: 100vh;
 }
@@ -229,9 +229,9 @@
 /* [✔] 🠗 change account container 🠗 */
 .accountProfilePopoutWrapper_b2ca13 .userPopoutInner_c69a7b:before,
 .accountProfilePopoutWrapper_b2ca13 .wrapper_cb78f1.biteSize_cb78f1,
-.accountProfilePopoutWrapper_b2ca13 .header_b07019,
+.accountProfilePopoutWrapper_b2ca13 .header_b8cc6d,
 .accountProfilePopoutWrapper_b2ca13 .username_ad5fac,
-.accountProfilePopoutWrapper_b2ca13 .body_ad5fac div:has(.descriptionClamp_fc5c48),
+.accountProfilePopoutWrapper_b2ca13 .body_ad5fac div:has(.descriptionClamp_abaf7d),
 .accountProfilePopoutWrapper_b2ca13 .card_ae1fa2,
 .accountProfilePopoutWrapper_b2ca13 .tags_c32acf,
 .accountProfilePopoutWrapper_b2ca13 .profileEffects_f867f9 {
@@ -929,14 +929,14 @@
 
 
 /* [✔] 🠗 new connect account and user activity on big profile 🠗 */
-.body_bc9cc2 .connectedAccountContainer_f3eb60 {
+.body_b9fccc .connectedAccountContainer_ab12c6 {
     margin-top: 12px;
     background-color: var(--bg-mod-faint);
     border: var(--border-faint);
     border-radius: 8px;
 }
 
-.body_bc9cc2 .userProfileActivity_fc39e7 {
+.body_b9fccc .userProfileActivity_fc39e7 {
     position: relative;
     padding: 8px;
     border-radius: 8px;
