@@ -128,12 +128,12 @@
 
 
 /* [✔] 🠗 Recolors Sideprofile. (no with premium banner) 🠗 */
-.userProfileInner_c69a7b:not(:has(#status)):not(:has([style*="/banners/"])),
+.userProfileInner_c69a7b:not(:has(.menuOverlay_ad5fac)):not(:has([style*="/banners/"])),
 .userProfileInner_c69a7b:has(.botText_a9e77f) {
 	background: var(--window-color-calc, var(--background-secondary-a)) !important;
 }
 
-.userProfileInner_c69a7b:has(.footer_a823cd):not(:has(#status)):not(:has([style*="/banners/"])) .overlayBackground_c69a7b,
+.userProfileInner_c69a7b:has(.footer_a823cd):not(:has(.menuOverlay_ad5fac)):not(:has([style*="/banners/"])) .overlayBackground_c69a7b,
 .userProfileInner_c69a7b:has(.botText_a9e77f) .overlayBackground_c69a7b {
     background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary))) !important;
     border-left: var(--background-tertiary-border-variable-divider-a) !important;
@@ -148,20 +148,20 @@
     box-shadow: var(--elevation-medium);
 }
 
-.userProfileInner_c69a7b:has(.footer_a823cd):not(:has(#status)):not(:has([style*="/banners/"])) .container_b64375 {
+.userProfileInner_c69a7b:has(.footer_a823cd):not(:has(.menuOverlay_ad5fac)):not(:has([style*="/banners/"])) .container_b64375 {
     background: var(--window-color-calc, var(--background-secondary-a));
     box-shadow: var(--elevation-medium);
 }
 
-.container_a823cd:not(:has(#status)):not(:has([style*="/banners/"])) .bannerSVGWrapper_b32cc2 {
+.container_a823cd:not(:has(.menuOverlay_ad5fac):not(:has([style*="/banners/"])) .bannerSVGWrapper_b32cc2 {
     overflow: hidden;
 }
 
-.container_a823cd:not(:has(#status)) .userProfileInner_c69a7b:not([style]) .avatarWrapper_f89da9 {
+.container_a823cd:not(:has(.menuOverlay_ad5fac)) .userProfileInner_c69a7b:not([style]) .avatarWrapper_f89da9 {
     background-color: var(--window-color-calc, var(--background-secondary-a));
 }
 
-.container_a823cd:not(:has(#status)) {
+.container_a823cd:not(:has(.menuOverlay_ad5fac)) {
     border-left: var(--background-tertiary-border-variable-divider-a);
 }
 
@@ -290,7 +290,8 @@
 	backdrop-filter: none !important;
 }
 
-.accountProfilePopoutWrapper_b2ca13 #status {
+/*
+.accountProfilePopoutWrapper_b2ca13 .#status {
     background-color: none;
     border: none;
     box-shadow: none;
@@ -298,8 +299,28 @@
 	border-bottom: none;
 	padding-bottom: 0px !important;
 }
+.accountProfilePopoutWrapper_b2ca13 .#account {
+    background-color: none;
+    border: none;
+    box-shadow: none;
+	border-radius: 0px 0px 8px 8px !important;
+	border-top: none;
+	padding-top: 0px !important;
+}
+.accountProfilePopoutWrapper_b2ca13 .#account:last-of-type [role="group"]:first-of-type::before {
+    content: "";
+    display: block;
+    margin: -4px 4px 8px 4px;
+    border-bottom: 1px solid var(--profile-body-divider-color);
+}
+*/
 
-.accountProfilePopoutWrapper_b2ca13 #account {
+.menuOverlay_ad5fac:has(.emoji) {
+	border-radius: 8px 8px 0px 0px !important;
+	border-bottom: none;
+}
+
+.menuOverlay_ad5fac:has(path[d="M18.46 20.9a12.65 12.65 0 0 1-1.46.9 10.95 10.95 0 0 1-10 0 11 11 0 1 1 11.46-.9Zm-1.65-1.3a8.96 8.96 0 0 1-9.62 0l.23-2.26c.02-.25-.27-.36-.41-.15-.29.45-.6 1.01-.88 1.63A9.04 9.04 0 0 1 4.2 16.5a9 9 0 0 1 15.6 0 9.04 9.04 0 0 1-1.93 2.32c-.27-.62-.59-1.18-.88-1.63-.14-.21-.43-.1-.4.15l.22 2.27ZM12 11a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Z"]) {
     background-color: none;
     border: none;
     box-shadow: none;
@@ -308,12 +329,26 @@
 	padding-top: 0px !important;
 }
 
-.accountProfilePopoutWrapper_b2ca13 #account:last-of-type [role="group"]:first-of-type::before {
+
+.menuOverlay_ad5fac:has(path[d="M18.46 20.9a12.65 12.65 0 0 1-1.46.9 10.95 10.95 0 0 1-10 0 11 11 0 1 1 11.46-.9Zm-1.65-1.3a8.96 8.96 0 0 1-9.62 0l.23-2.26c.02-.25-.27-.36-.41-.15-.29.45-.6 1.01-.88 1.63A9.04 9.04 0 0 1 4.2 16.5a9 9 0 0 1 15.6 0 9.04 9.04 0 0 1-1.93 2.32c-.27-.62-.59-1.18-.88-1.63-.14-.21-.43-.1-.4.15l.22 2.27ZM12 11a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Z"])::before {
     content: "";
     display: block;
-    margin: -4px 4px 8px 4px;
-    border-bottom: 1px solid var(--profile-body-divider-color);
+    margin: 4px 4px 8px 4px;
+    border-bottom: 1px solid var(--profile-body-divider-color) !important;
 }
+
+
+.menuItemLabel_ad5fac:has(.clearCustomStatusHint_ad5fac) {
+	font-size: 0 !important;
+}
+
+.menuItemLabel_ad5fac:has(.clearCustomStatusHint_ad5fac):before {
+	font-size: 14px;
+    white-space:nowrap;
+    content:"Modifica stato";
+    word-spacing:initial;
+}
+
 
 
 /* [✔] 🠗 Forum fixes 🠗 */
