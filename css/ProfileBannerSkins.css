@@ -98,7 +98,7 @@
 
 	}
 
-	.userProfileOuterUnthemed_c69a7b:not(:has(.statusBubble_d0a252)) .body_b8cc6d {
+	.userProfileInner_c69a7b:not(:has(.statusBubble_d0a252)) .body_b8cc6d {
 	    margin-top: 8px !important;
 	}
 
