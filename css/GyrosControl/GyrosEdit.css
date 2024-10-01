@@ -994,7 +994,7 @@
 
 
 /* [✔] 🠗 New missions page redesigned 🠗 */
-.container_a56260 {
+.container_fc867b .scroller_b91a2d {
     border-radius: var(--window-border-radius-calc);
     background: var(--background-tertiary-a) !important;
     border: var(--background-tertiary-border-variable-width-a);
@@ -1048,6 +1048,13 @@
 .content_a4d4d9:has(.discoverHeader_b992d4) .sidebarContainer_a3a4ce {
 	background: none;
 }
+
+.container_e2fc00 .darkThemeGradient_e2fc00 {
+	background: linear-gradient(to top,var(--background-primary)0%,hsl(var(--primary-660-hsl)/.5)50%,hsl(var(--primary-660-hsl)/0)100%);
+}
+
+.container_e2fc00 {
+    border: var(--background-primary-border);
 
 
 /* [✔] 🠗 Removes activities list from top of member list 🠗 */
