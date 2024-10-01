@@ -1059,7 +1059,8 @@
 
 /* [✔] 🠗 Removes activities list from top of member list 🠗 */
 .membersGroup_cbd271:has(+ div .openOnHover_c64476),
-.content_eed6a8 > div:has(div > .openOnHover_c64476) {
+.container_c64476 > div:has(div > .openOnHover_c64476),
+.container_c64476.openOnHover_c64476 {
   display: none;
 }
 
@@ -1088,11 +1089,11 @@
 
 
 /* [✔] 🠗 Fixes hover messages button 🠗 */
-.message_d5deea .popover_e986d9:has(>.separator_e986d9)>div:not(.separator_e986d9~div){
+.buttons_d5deea .popover_e986d9:has(>.separator_e986d9)>div:not(.separator_e986d9~div){
     display: none;
 }
 
-.message_d5deea .popover_e986d9 {
+.buttons_d5deea .popover_e986d9 {
     background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary)));
     background-size: calc(var(--chat-bubble) * 1px);
     border-radius: calc(var(--chat-bubble-border-radius) * var(--chat-bubble));
