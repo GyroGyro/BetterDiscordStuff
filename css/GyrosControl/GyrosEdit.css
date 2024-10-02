@@ -993,71 +993,6 @@
 }
 
 
-/* [✔] 🠗 New missions page redesigned 🠗 */
-.container_fc867b .scroller_b91a2d {
-    border-radius: var(--window-border-radius-calc);
-    background: var(--background-tertiary-a) !important;
-    border: var(--background-tertiary-border-variable-width-a);
-    -webkit-backdrop-filter: blur(var(--window-blur-calc));
-    backdrop-filter: blur(var(--window-blur-calc));
-}
-
-.container_fc867b .headerBar_accde0 {
-    border-radius: var(--window-border-radius-calc) var(--window-border-radius-calc) 0 0;
-    border-left: var(--background-tertiary-border-variable-divider-a);
-    border-top: var(--background-tertiary-border-variable-width-a);
-    border-right: var(--background-tertiary-border-variable-width-a);
-    -webkit-box-shadow: var(--elevation-low);
-    box-shadow: var(--elevation-low);
-    background: var(--window-color-calc, var(--background-accent-a)) !important;
-}
-
-.container_fc867b {
-	border-radius: var(--window-border-radius-calc);
-}
-
-.theme-dark .contentContainer_a56260 {
-	margin-top: 80px;
-	background: var(--background-tertiary-a) !important;
-}
-
-.icon_accde0 path[d="M7.5 21.7a8.95 8.95 0 0 1 9 0 1 1 0 0 0 1-1.73c-.6-.35-1.24-.64-1.9-.87.54-.3 1.05-.65 1.52-1.07a3.98 3.98 0 0 0 5.49-1.8.77.77 0 0 0-.24-.95 3.98 3.98 0 0 0-2.02-.76A4 4 0 0 0 23 10.47a.76.76 0 0 0-.71-.71 4.06 4.06 0 0 0-1.6.22 3.99 3.99 0 0 0 .54-5.35.77.77 0 0 0-.95-.24c-.75.36-1.37.95-1.77 1.67V6a4 4 0 0 0-4.9-3.9.77.77 0 0 0-.6.72 4 4 0 0 0 3.7 4.17c.89 1.3 1.3 2.95 1.3 4.51 0 3.66-2.75 6.5-6 6.5s-6-2.84-6-6.5c0-1.56.41-3.21 1.3-4.51A4 4 0 0 0 11 2.82a.77.77 0 0 0-.6-.72 4.01 4.01 0 0 0-4.9 3.96A4.02 4.02 0 0 0 3.73 4.4a.77.77 0 0 0-.95.24 3.98 3.98 0 0 0 .55 5.35 4 4 0 0 0-1.6-.22.76.76 0 0 0-.72.71l-.01.28a4 4 0 0 0 2.65 3.77c-.75.06-1.45.33-2.02.76-.3.22-.4.62-.24.95a4 4 0 0 0 5.49 1.8c.47.42.98.78 1.53 1.07-.67.23-1.3.52-1.91.87a1 1 0 1 0 1 1.73Z"]{
-	fill: var(--brand-experiment);
-}
-
-.container_fc867b .bannerImage_fc867b,
-.container_fc867b .bannerContainer_fc867b,
-.container_fc867b .backdrop_accde0 {
-	display: none;
-}
-
-.questTile_ad4620 {
-    background-color: var(--background-primary);
-    border: var(--background-primary-border);
-}
-
-.container_c2d7e2,
-.rewardDescriptionContainer_c2d7e2 {
-    background-color: var(--background-primary);
-}
-
-.textOverflowBlur_c2d7e2 {
-  background: none;
-}
-
-.content_a4d4d9:has(.discoverHeader_b992d4) .sidebarContainer_a3a4ce {
-	background: none;
-}
-
-.container_e2fc00 .darkThemeGradient_e2fc00 {
-	background: linear-gradient(to top,var(--background-primary)0%,hsl(var(--primary-660-hsl)/.5)50%,hsl(var(--primary-660-hsl)/0)100%);
-}
-
-.container_e2fc00 {
-    border: var(--background-primary-border);
-}
-
-
 /* [✔] 🠗 Removes activities list from top of member list 🠗 */
 .membersGroup_cbd271:has(+ div .openOnHover_c64476),
 .content_eed6a8 > div:has(div > .openOnHover_c64476) {
@@ -1099,4 +1034,139 @@
     border-radius: calc(var(--chat-bubble-border-radius) * var(--chat-bubble));
     border: calc(1px * var(--chat-bubble)) solid var(--chat-bubble-border-color, var(--background-primary-border-color));
     box-shadow: var(--chat-bubble-box-shadow-h-offset) calc(var(--chat-bubble-box-shadow-v-offset) * var(--chat-bubble)) calc(var(--chat-bubble-box-shadow-blur) * var(--chat-bubble)) hsla(var(--chat-bubble-box-shadow-color-h), var(--chat-bubble-box-shadow-color-s), var(--chat-bubble-box-shadow-color-l), calc(var(--chat-bubble-box-shadow-color-a) * var(--chat-bubble)));
+}
+
+/* [✔] 🠗 New discover page redesigned 🠗 */
+.container_e462a4,
+.container_e462a4 .header_e462a4 {
+	background: none;
+	box-shadow: none;
+}
+
+.navItem_e462a4.selected_e462a4 {
+    color: var(--interactive-active);
+    background: var(--bg-overlay-selected,var(--background-modifier-selected));
+}
+
+html.app-focused .navItem_e462a4.selected_e462a4 {
+    color: #fff;
+    background-color: var(--brand-experiment);
+}
+
+/* [✔] 🠗 New missions page redesigned 🠗 */
+.container_fc867b .scroller_b91a2d {
+    border-radius: var(--window-border-radius-calc);
+    background: var(--background-tertiary-a) !important;
+    border: var(--background-tertiary-border-variable-width-a);
+    -webkit-backdrop-filter: blur(var(--window-blur-calc));
+    backdrop-filter: blur(var(--window-blur-calc));
+}
+
+.container_fc867b .headerBar_accde0,
+.container_d746e5 .headerBar_accde0 {
+    border-radius: var(--window-border-radius-calc) var(--window-border-radius-calc) 0 0;
+    border-left: var(--background-tertiary-border-variable-divider-a);
+    border-top: var(--background-tertiary-border-variable-width-a);
+    border-right: var(--background-tertiary-border-variable-width-a);
+    -webkit-box-shadow: var(--elevation-low);
+    box-shadow: var(--elevation-low);
+    background: var(--window-color-calc, var(--background-accent-a)) !important;
+}
+
+.container_fc867b .headerBar_accde0:before {
+    font-family: var(--font-display);
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 600;
+    white-space:nowrap;
+    content:"Missioni";
+    word-spacing:initial;
+	color: var(--text-normal);
+	position: fixed;
+	margin-left: 40px;
+}
+
+.container_fc867b .bannerImage_fc867b,
+.container_fc867b .bannerContainer_fc867b,
+.container_fc867b .backdrop_accde0 {
+	display: none;
+}
+
+.icon_accde0 path[d="M7.5 21.7a8.95 8.95 0 0 1 9 0 1 1 0 0 0 1-1.73c-.6-.35-1.24-.64-1.9-.87.54-.3 1.05-.65 1.52-1.07a3.98 3.98 0 0 0 5.49-1.8.77.77 0 0 0-.24-.95 3.98 3.98 0 0 0-2.02-.76A4 4 0 0 0 23 10.47a.76.76 0 0 0-.71-.71 4.06 4.06 0 0 0-1.6.22 3.99 3.99 0 0 0 .54-5.35.77.77 0 0 0-.95-.24c-.75.36-1.37.95-1.77 1.67V6a4 4 0 0 0-4.9-3.9.77.77 0 0 0-.6.72 4 4 0 0 0 3.7 4.17c.89 1.3 1.3 2.95 1.3 4.51 0 3.66-2.75 6.5-6 6.5s-6-2.84-6-6.5c0-1.56.41-3.21 1.3-4.51A4 4 0 0 0 11 2.82a.77.77 0 0 0-.6-.72 4.01 4.01 0 0 0-4.9 3.96A4.02 4.02 0 0 0 3.73 4.4a.77.77 0 0 0-.95.24 3.98 3.98 0 0 0 .55 5.35 4 4 0 0 0-1.6-.22.76.76 0 0 0-.72.71l-.01.28a4 4 0 0 0 2.65 3.77c-.75.06-1.45.33-2.02.76-.3.22-.4.62-.24.95a4 4 0 0 0 5.49 1.8c.47.42.98.78 1.53 1.07-.67.23-1.3.52-1.91.87a1 1 0 1 0 1 1.73Z"]{
+	fill: var(--brand-experiment);
+}
+
+.questTile_ad4620 {
+    background-color: var(--background-primary);
+    border: var(--background-primary-border);
+}
+
+.container_c2d7e2,
+.rewardDescriptionContainer_c2d7e2 {
+    background-color: var(--background-primary);
+}
+
+.textOverflowBlur_c2d7e2 {
+  background: none;
+}
+
+.container_e2fc00 .darkThemeGradient_e2fc00 {
+	background: linear-gradient(to top,var(--background-primary)0%,hsl(var(--primary-660-hsl)/.5)50%,hsl(var(--primary-660-hsl)/0)100%);
+}
+
+.container_e2fc00 {
+    border: var(--background-primary-border);
+}
+
+
+/* [✔] 🠗 New server discover page redesigned 🠗 */
+.container_eed148 .scroller_b91a2d {
+    border-radius: var(--window-border-radius-calc);
+    background: var(--background-tertiary-a) !important;
+    border: var(--background-tertiary-border-variable-width-a);
+    -webkit-backdrop-filter: blur(var(--window-blur-calc));
+    backdrop-filter: blur(var(--window-blur-calc));
+}
+
+.container_fc867b .headerBar_accde0,
+.container_d746e5 .headerBar_accde0 {
+    border-radius: var(--window-border-radius-calc) var(--window-border-radius-calc) 0 0;
+    border-left: var(--background-tertiary-border-variable-divider-a);
+    border-top: var(--background-tertiary-border-variable-width-a);
+    border-right: var(--background-tertiary-border-variable-width-a);
+    -webkit-box-shadow: var(--elevation-low);
+    box-shadow: var(--elevation-low);
+    background: var(--window-color-calc, var(--background-accent-a)) !important;
+}
+
+.icon_accde0 path[d="M10.55 4.4c.13-.24.1-.54-.12-.71L8.6 2.24a1 1 0 0 0-1.24 0l-4 3.15a1 1 0 0 0-.38.79v4.03c0 .43.5.66.82.39l2.28-1.9a3 3 0 0 1 3.84 0c.03.02.08 0 .08-.04V6.42a4 4 0 0 1 .55-2.02ZM7.36 10.23a1 1 0 0 1 1.28 0l1.18.99 2.98 2.48 1.84 1.53a1 1 0 0 1-.67 1.77.1.1 0 0 0-.1.09l-.23 3.06a2 2 0 0 1-2 1.85H4.36a2 2 0 0 1-2-1.85l-.24-3.16a1 1 0 0 1-.76-1.76l6-5Z"],
+.icon_accde0 path[d="M12 10.2c0 .14.07.28.18.38l3.74 3.12a3 3 0 0 1 .03 4.58.55.55 0 0 0-.2.37l-.12 1.65a4 4 0 0 1-.17.9c-.12.38.13.8.52.8H20a2 2 0 0 0 2-2V3.61a1.5 1.5 0 0 0-2-1.41l-6.66 2.33A2 2 0 0 0 12 6.42"] {
+	fill: var(--brand-experiment);
+}
+
+.container_b97772,
+.gradientBackground_b97772,
+.backdrop_accde0 {
+	display: none;
+}
+
+.content_fa6dd5 {
+	margin-top: 20px;
+}
+
+.container_c73cee {
+    background-color: var(--background-primary);
+    border: var(--background-primary-border);
+	border-radius: 8px;
+}
+
+.container_c2d7e2,
+.guildDetails_c73cee {
+    background-color: var(--background-primary);
+}
+
+
+/* [✔] 🠗 fix for Student Hub page 🠗 */
+html:has(.top_a0 .brand_a0.selected_a0.item_a0[aria-label^='Hub studenti']) .content_fa6dd5 {
+	margin-top: 70px;
 }
