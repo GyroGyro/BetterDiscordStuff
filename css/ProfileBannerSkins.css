@@ -221,6 +221,12 @@
 	background: transparent;
 }
 
+.userProfileInner_c69a7b:has(.botText_a9e77f) .container_b64375 {
+    background: var(--window-color-calc, var(--background-secondary-a));
+    box-shadow: var(--elevation-medium);
+}
+
+
 
 /*
 .theme-dark .userProfileInner_c69a7b,
