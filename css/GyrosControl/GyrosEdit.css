@@ -1024,6 +1024,10 @@
 	margin-right: -6px;
 }
 
+.channelChatWrapper_d880dc {
+	    background: var(--background-tertiary-a);
+}
+
 
 /* [✔] 🠗 Removes activities list from top of member list 🠗 */
 .membersGroup_cbd271:has(+ div .openOnHover_c64476),
@@ -1201,4 +1205,10 @@ html.app-focused .navItem_e462a4.selected_e462a4 {
 /* [✔] 🠗 fix for Student Hub page 🠗 */
 html:has(.top_a0 .brand_a0.selected_a0.item_a0[aria-label^='Hub studenti']) .content_fa6dd5 {
 	margin-top: 70px;
+}
+
+
+/* [✔] 🠗 creating new thread background 🠗 */
+.container_fb4810 {
+	    background: var(--background-tertiary-a);
 }
