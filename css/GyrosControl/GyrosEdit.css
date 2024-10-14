@@ -22,6 +22,11 @@
     display: none;
 }
 
+/* [✔] 🠗 stream margin in call container 🠗 */
+.videoSizer_bae578 {
+	margin-left: 6px;
+}
+
 /* [✔] 🠗 soundboard button background 🠗 */
 .button_adcaac[aria-label^='Apri Soundboard'].buttonColor_adcaac.buttonActive_adcaac {
   background-color: var(--background-modifier-accent) !important;
