@@ -1,6 +1,6 @@
 /* ProfileBannerSkins */
 
-.userProfileOuterUnthemed_c69a7b:not(:has(.list_a8795b, .botText_a9e77f)) {
+.userProfileOuterUnthemed_c69a7b:not(:has(.list_a8795b)) {
     &.theme-dark {
         --bg-mod-faint: rgba(0 0 0/.2);
         --border-faint: hsla(0, 0%, 100%, 0.12);
