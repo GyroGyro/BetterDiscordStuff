@@ -138,7 +138,7 @@
 	background: var(--window-color-calc, var(--background-secondary-a)) !important;
 }
 
-.userProfileInner_c69a7b:has(.footer_a823cd):not(:has(.menuOverlay_ad5fac)):not(:has([style*="/banners/"])) .overlayBackground_c69a7,
+.userProfileInner_c69a7b:has(.footer_a823cd):not(:has(.menuOverlay_ad5fac)):not(:has([style*="/banners/"])) .overlayBackground_c69a7b,
 .content_a7d72e .userProfileInner_c69a7b:has(.botText_a9e77f) .overlayBackground_c69a7b {
     background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary))) !important;
     border-left: var(--background-tertiary-border-variable-divider-a) !important;
