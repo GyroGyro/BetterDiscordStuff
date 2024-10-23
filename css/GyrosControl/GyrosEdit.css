@@ -457,15 +457,39 @@
 	border-bottom: var(--background-tertiary-border);
 }
 
-.soundButton_f40049:not(.playing_f40049)  {
-	box-shadow: var(--box-shadow-outer-2);
-    border: var(--background-primary-border);
-	border-radius: 8px;
+.soundButtonInteractiveRefresh_f40049.playing_f40049 {
+	border-color: transparent;
+	outline: 2px solid var(--brand-experiment);
 }
 
-.soundButtonInteractive_f40049.playing_f40049 {
-	border-color: transparent;
-	box-shadow: inset 0 0 0 2px var(--brand-experiment),inset 0 0 0 3px var(--background-secondary);
+.soundButtonRefresh_f40049 {
+    box-sizing: border-box;
+    position: relative;
+    background: var(--background-primary);
+    border-radius: var(--radius-md);
+    height: 72px;
+    width: 102px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid var(--border-subtle);
+    overflow: hidden;
+    box-shadow: 0 1px 0 0 rgba(0,0,0,.2),0 1px 4px 0 rgba(0,0,0,.2);
+    transition: height.1s ease,margin-top.1s ease,outline.3s ease;
+}
+
+.soundButtonRefresh_f40049:active:not(:focus-within) {
+	background: var(--background-primary);
+}
+
+.container_effbe2:focus-within {
+    box-shadow: var(--box-shadow-selection-50a);
+}
+
+.container_effbe2 {
+	border-radius: 6px;
+    background-color: var(--background-modifier-hover);
 }
 
 
@@ -1221,4 +1245,29 @@ html:has(.top_a0 .brand_a0.selected_a0.item_a0[aria-label^='Hub studenti']) .con
 /* [✔] 🠗 creating new thread background 🠗 */
 .container_fb4810 {
 	    background: var(--background-tertiary-a);
+}
+
+
+/* [✔] 🠗 connection status 🠗 */
+.container_feab95 {
+    position: relative;
+    background-color: var(--background-floating-80a) !important;
+    border-radius: 8px;
+    border: var(--background-floating-border);
+    box-shadow: var(--elevation-stroke), var(--elevation-high);
+	-webkit-backdrop-filter: blur(var(--background-floating-blur-calc));
+    backdrop-filter: blur(var(--background-floating-blur-calc));
+}
+
+.graphContainer_c73c22 {
+	background: none;
+}
+
+.container_feab95 .code_e9fe13 {
+	background-color: transparent;
+    border: var(--background-floating-border);
+}
+
+.container_feab95 .tag_f59a38 {
+	background-color: transparent;
 }
