@@ -1271,3 +1271,21 @@ html:has(.top_a0 .brand_a0.selected_a0.item_a0[aria-label^='Hub studenti']) .con
 .container_feab95 .tag_f59a38 {
 	background-color: transparent;
 }
+
+
+/* [✔] 🠗 received messages box fix 🠗 */
+.tabBar_f0cd33 {
+	background-color: var(--background-accent);
+	margin-top: 0px;
+}
+
+.top_a0 .brand_a0.selected_a0.item_a0,
+.top_a0 .brand_a0.item_a0:active {
+	border-bottom-color: var(--brand-experiment);
+}
+
+#app-mount .recentMentionsPopout_ddb5b4 .container_ddb5b4:first-child,
+.row_fd8ff1:first-child,
+.tutorial_f1c3d9 {
+	margin-top: 40px;
+}
