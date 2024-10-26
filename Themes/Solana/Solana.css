@@ -1911,7 +1911,7 @@ code {
 }
 
 .channelTextArea_a7d72e,
-#app-mount .scrollableContainer_d0696b {
+#app-mount .scrollableContainer_bdf0de {
   background-color: transparent;
 }
 
@@ -1921,11 +1921,11 @@ code {
   border-top: var(--background-secondary-border-a);
 }
 
-.scrollableContainer_d0696b {
+.scrollableContainer_bdf0de {
   box-shadow: var(--background-secondary-box-shadow-border-a);
 }
 
-.scrollableContainer_d0696b:focus-within {
+.scrollableContainer_bdf0de:focus-within {
   box-shadow: var(--box-shadow-selection-50a);
 }
 
