@@ -1289,3 +1289,26 @@ html:has(.top_a0 .brand_a0.selected_a0.item_a0[aria-label^='Hub studenti']) .con
 .tutorial_f1c3d9 {
 	margin-top: 40px;
 }
+
+
+/* [✔] 🠗 fixed textarea + reply bar  🠗 */
+.clipContainer_b11c5e,
+.replyBar_b11c5e {
+  background: transparent;
+}
+
+.clipContainer_b11c5e {
+  border-radius: 8px 8px 0px 0px;
+  border-bottom: none !important;
+  box-shadow: 0 -1px 0 0 var(--background-secondary-border-color-a),
+			  -1px 0 0 0 var(--background-secondary-border-color-a),
+			  1px 0 0 0 var(--background-secondary-border-color-a);
+}
+
+.channelTextArea_a7d72e:has(.clipContainer_b11c5e) .scrollableContainer_bdf0de {
+  box-shadow: 0 0 0 1px var(--background-secondary-border-color-a)
+}
+
+.channelTextArea_a7d72e:has(.clipContainer_b11c5e) .scrollableContainer_bdf0de:focus-within {
+  box-shadow: 0 0 0 4px var(--brand-experiment-50a) !important;
+}
