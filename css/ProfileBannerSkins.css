@@ -1,6 +1,6 @@
 /* ProfileBannerSkins */
 
-.userProfileOuterUnthemed_c69a7b:not(:has(.list_a8795b)) {
+.outer_c69a7b:not(:has(.list_a8795b)) {
     &.theme-dark {
         --bg-mod-faint: rgba(0 0 0/.2);
         --border-faint: hsla(0, 0%, 100%, 0.12);
@@ -98,7 +98,7 @@
 
 	}
 
-	.userProfileInner_c69a7b:not(:has(.statusBubble_d0a252)) .body_b8cc6d {
+	.inner_c69a7b:not(:has(.statusBubble_d0a252)) .body_b8cc6d {
 	    margin-top: 8px !important;
 	}
 
@@ -156,8 +156,8 @@
 	border: 1px solid var(--border-faint);
 }
 
-.userProfileInner_c69a7b .wrapper_c51b4e circle,
-.userProfileInner_c69a7b .wrapper_c51b4e rect[style] {
+.inner_c69a7b .wrapper_c51b4e circle,
+.inner_c69a7b .wrapper_c51b4e rect[style] {
   fill: none;
 }
 
@@ -189,9 +189,9 @@
     display: none;
 }
 
-.userProfileInner_c69a7b .wrapper_cb78f1.biteSize_cb78f1 button,
-.userProfileInner_c69a7b .wrapper_cb78f1.fullSize_cb78f1 button,
-.userProfileInner_c69a7b .multipleButtons_e9f973 button {
+.inner_c69a7b .wrapper_cb78f1.biteSize_cb78f1 button,
+.inner_c69a7b .wrapper_cb78f1.fullSize_cb78f1 button,
+.inner_c69a7b .multipleButtons_e9f973 button {
 	background: rgba(0 0 0/.5) !important;
 	border-top: none !important;
 }
@@ -223,12 +223,12 @@
 
 
 /*
-.theme-dark .userProfileInner_c69a7b,
+.theme-dark .inner_c69a7b,
 .theme-dark .accountProfileCard_b69b77 {
   --profile-body-background-color: rgba(0, 0, 0, 0.45);
 }
 
-.theme-light .userProfileInner_c69a7b,
+.theme-light .inner_c69a7b,
 .theme-light .accountProfileCard_b69b77 {
   --profile-body-background-color: rgba(255, 255, 255, 0.65);
 }
@@ -246,25 +246,25 @@
   height: 100vh;
 }
 
-.userProfileInner_c69a7b:not(:has(svg div[style*=image])) .avatarWrapper_f89da9 {
+.inner_c69a7b:not(:has(svg div[style*=image])) .avatarWrapper_f89da9 {
   background: var(--profile-body-background-color);
   box-shadow: var(--elevation-medium);
 }
-.userProfileInner_c69a7b:not(:has(svg div[style*=image])) .avatarHoverTarget_f89da9,
-.userProfileInner_c69a7b:not(:has(svg div[style*=image])) .avatarHint_f89da9 {
+.inner_c69a7b:not(:has(svg div[style*=image])) .avatarHoverTarget_f89da9,
+.inner_c69a7b:not(:has(svg div[style*=image])) .avatarHint_f89da9 {
   padding: 6px;
 }
-.userProfileInner_c69a7b:not(:has(svg div[style*=image])) .avatar_ec3b75,
-.userProfileInner_c69a7b:not(:has(svg div[style*=image])) .avatar_ec3b75 {
+.inner_c69a7b:not(:has(svg div[style*=image])) .avatar_ec3b75,
+.inner_c69a7b:not(:has(svg div[style*=image])) .avatar_ec3b75 {
   background: var(--profile-body-background-color);
   box-shadow: var(--elevation-medium);
   padding: 6px;
 }
-.userProfileInner_c69a7b .profileBadges_f89da9:not(.containerWithContent_b64375) {
+.inner_c69a7b .profileBadges_f89da9:not(.containerWithContent_b64375) {
   padding-top: 4px;
   padding-bottom: 4px;
 }
-.userProfileInner_c69a7b .messageInputContainer_f2c0a8 {
+.inner_c69a7b .messageInputContainer_f2c0a8 {
   border: none;
 }
 
@@ -407,5 +407,3 @@
 	display: none;
 }
 */
-
-
