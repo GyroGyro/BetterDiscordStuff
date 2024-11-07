@@ -133,72 +133,71 @@
 
 
 /* [✔] 🠗 Recolors Sideprofile. (no with premium banner) 🠗 */
-.userProfileInner_c69a7b:not(:has(.menuOverlay_ad5fac)):not(:has([style*="/banners/"])),
-.userProfileInner_c69a7b:has(.botText_a9e77f) {
+:root .panel_c69a7b .inner_c69a7b:not(:has([style*="/banners/"])),
+:root .panel_c69a7b .inner_c69a7b:has(.botText_a9e77f) {
 	background: var(--window-color-calc, var(--background-secondary-a)) !important;
+	border-left: var(--background-tertiary-border-variable-divider-a);
 }
 
-.userProfileInner_c69a7b:has(.footer_a823cd):not(:has(.menuOverlay_ad5fac)):not(:has([style*="/banners/"])) .overlayBackground_c69a7b,
-.content_a7d72e .userProfileInner_c69a7b:has(.botText_a9e77f) .overlayBackground_c69a7b {
+:root .panel_c69a7b .inner_c69a7b:has(.footer_a823cd):not(:has([style*="/banners/"])) .overlay_a972fe,
+:root .panel_c69a7b .inner_c69a7b:has(.footer_a823cd):not(:has([style*="/banners/"])) .overlay_a8795b,
+.content_a7d72e .inner_c69a7b:has(.botText_a9e77f) .overlay_a972fe,
+.content_a7d72e .inner_c69a7b:has(.botText_a9e77f) .overlay_a8795b {
     background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary))) !important;
     border-left: var(--background-tertiary-border-variable-divider-a) !important;
 	border-right: none !important;
     box-shadow: var(--elevation-medium) !important;
 }
 
-.container_a823cd:has(.footer_a823cd) .userProfileInner_c69a7b:not(:has([style*="/banners/"])) .activity_f00225 {
+:root .panel_c69a7b:has(.footer_a823cd) .inner_c69a7b:not(:has([style*="/banners/"])) .activity_a972fe {
     background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary)));
     border-left: var(--background-tertiary-border-variable-divider-a);
 	border-right: none;
     box-shadow: var(--elevation-medium);
 }
 
-.content_a7d72e .userProfileInner_c69a7b:has(.botText_a9e77f) .container_b64375 {
+:root .panel_c69a7b .inner_c69a7b:has(.footer_a823cd):not(:has([style*="/banners/"])) .container_b64375,
+.content_a7d72e .inner_c69a7b:has(.botText_a9e77f) .container_b64375 {
     background: var(--window-color-calc, var(--background-secondary-a));
     box-shadow: var(--elevation-medium);
 }
 
-.userProfileInner_c69a7b:has(.footer_a823cd):not(:has(.menuOverlay_ad5fac)):not(:has([style*="/banners/"])) .container_b64375 {
+:root .panel_c69a7b .inner_c69a7b:has(.footer_a823cd):not(:has(.overlay_a8795b)):not(:has([style*="/banners/"])) .overlay_a972fe {
     background: var(--window-color-calc, var(--background-secondary-a));
     box-shadow: var(--elevation-medium);
 }
 
-.container_a823cd:not(:has(.menuOverlay_ad5fac)):not(:has([style*="/banners/"])) .bannerSVGWrapper_b32cc2 {
+:root .panel_c69a7b:not(:has(.overlay_c69a7b)):not(:has([style*="/banners/"])) .bannerSVGWrapper_b32cc2 {
     overflow: hidden;
 }
 
-.container_a823cd:not(:has(.menuOverlay_ad5fac)) .userProfileInner_c69a7b:not([style]) .avatarWrapper_f89da9 {
+:root .panel_c69a7b:not(:has(.overlay_c69a7b)) .inner_c69a7b:not([style]) .wrapper_c51b4e {
     background-color: var(--window-color-calc, var(--background-secondary-a));
 }
 
-.container_a823cd:not(:has(.menuOverlay_ad5fac)) {
-    border-left: var(--background-tertiary-border-variable-divider-a);
-}
-
-
 /* [✔] 🠗 small fixes for side-profile when is impossible to load profile (no with premium banner) 🠗 */
-.container_a823cd:has(.footer_a823cd) .body_a972fe {
+:root .panel_c69a7b:has(.footer_a823cd) .body_a972fe {
 	background: none !important;
 	border: none !important;
 	box-shadow: none !important;
 }
 
-.container_a823cd:has(.footer_a823cd) .userProfileInner_c69a7b:not(:has([style*="/banners/"])) .collapseBtn_a4a127 {
+:root .panel_c69a7b:has(.footer_a823cd) .inner_c69a7b:not(:has([style*="/banners/"])) .collapseBtn_a4a127 {
 	background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary))) !important;
 }
 
-.container_a823cd:has(.footer_a823cd) .userProfileInner_c69a7b:not(:has([style*="/banners/"])) .activity_f00225  {
+:root .panel_c69a7b:has(.footer_a823cd) .inner_c69a7b:not(:has([style*="/banners/"])) .activity_f00225  {
     background: linear-gradient(var(--chat-bubble-background-color, var(--background-primary)), var(--chat-bubble-background-color, var(--background-primary)));
     border-left: var(--background-tertiary-border-variable-divider-a);
 	border-right: none;
     box-shadow: var(--elevation-medium);
 }
 
-.container_a823cd:has(.footer_a823cd):not(:has([style*="/banners/"])) .bannerSVGWrapper_b32cc2 {
+:root .panel_c69a7b:has(.footer_a823cd):not(:has([style*="/banners/"])) .bannerSVGWrapper_b32cc2 {
     overflow: hidden !important;
 }
 
-.container_a823cd:has(.footer_a823cd) .wrapper_c51b4e::before {
+:root .panel_c69a7b:has(.footer_a823cd) .wrapper_c51b4e::before {
     background-color: var(--window-color-calc, var(--background-secondary-a)) !important;
 	box-shadow: none !important;
 }
@@ -207,6 +206,7 @@
 	background: var(--window-color-calc, var(--background-secondary-a));
     box-shadow: var(--elevation-medium);
 }
+
 
 
 /* [✔] 🠗 adjust profile in profilecard settings 🠗 */
