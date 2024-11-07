@@ -237,7 +237,7 @@
 
 
 /* [✔] 🠗 change account container 🠗 */
-.accountProfilePopoutWrapper_b2ca13 .userPopoutInner_c69a7b:before,
+.accountProfilePopoutWrapper_b2ca13 .inner_c69a7b:before,
 .accountProfilePopoutWrapper_b2ca13 .wrapper_cb78f1.biteSize_cb78f1,
 .accountProfilePopoutWrapper_b2ca13 .header_b8cc6d,
 .accountProfilePopoutWrapper_b2ca13 .username_ad5fac,
@@ -277,7 +277,7 @@
     left: unset;
 }
 
-.accountProfilePopoutWrapper_b2ca13 .userPopoutOuter_c69a7b {
+.accountProfilePopoutWrapper_b2ca13 .outer_c69a7b {
     width: 240px !important;
 	padding: 0px 0px 0px 0px !important;
 	height: 205px !important;
@@ -292,38 +292,13 @@
 	background: transparent !important;
 }
 
-.accountProfilePopoutWrapper_b2ca13 .userPopoutOuter_c69a7b,
-.accountProfilePopoutWrapper_b2ca13 .userPopoutInner_c69a7b,
+.accountProfilePopoutWrapper_b2ca13 .outer_c69a7b,
+.accountProfilePopoutWrapper_b2ca13 .inner_c69a7b,
 .accountProfilePopoutWrapper_b2ca13 .body_ad5fac {
     background: none !important;
 	box-shadow: none !important;
 	backdrop-filter: none !important;
 }
-
-/*
-.accountProfilePopoutWrapper_b2ca13 .#status {
-    background-color: none;
-    border: none;
-    box-shadow: none;
-	border-radius: 8px 8px 0px 0px !important;
-	border-bottom: none;
-	padding-bottom: 0px !important;
-}
-.accountProfilePopoutWrapper_b2ca13 .#account {
-    background-color: none;
-    border: none;
-    box-shadow: none;
-	border-radius: 0px 0px 8px 8px !important;
-	border-top: none;
-	padding-top: 0px !important;
-}
-.accountProfilePopoutWrapper_b2ca13 .#account:last-of-type [role="group"]:first-of-type::before {
-    content: "";
-    display: block;
-    margin: -4px 4px 8px 4px;
-    border-bottom: 1px solid var(--profile-body-divider-color);
-}
-*/
 
 .menuOverlay_ad5fac:has(.emoji) {
 	border-radius: 8px 8px 0px 0px !important;
