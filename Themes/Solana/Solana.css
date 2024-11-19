@@ -637,6 +637,7 @@ html.theme-dark #app-mount .tooltipPointer_b6c360 {
   margin-bottom: 24px;
 }
 
+/*
  .tree_fea3ef {
     justify-content: center;
     align-self: center;
@@ -672,8 +673,8 @@ html.theme-dark #app-mount .tooltipPointer_b6c360 {
     background: transparent;
     margin-top: -8px;
  }
+ */
 
-/*
 .tree_fea3ef {
   justify-content: center;
   align-self: center;
@@ -692,7 +693,6 @@ html.theme-dark #app-mount .tooltipPointer_b6c360 {
   -webkit-backdrop-filter: blur(var(--dock-blur-calc));
           backdrop-filter: blur(var(--dock-blur-calc));
 }
-*/
 
 .theme-light .guilds_a4d4d9:not(.theme-dark) .scroller_fea3ef {
   background-color: var(--background-floating-40a);
