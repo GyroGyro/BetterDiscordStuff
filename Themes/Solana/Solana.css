@@ -637,43 +637,51 @@ html.theme-dark #app-mount .tooltipPointer_b6c360 {
   margin-bottom: 24px;
 }
 
-/*
- .tree_fea3ef {
-    justify-content: center;
-    align-self: center;
-    height: -moz-fit-content;
-    height: fit-content;
-    max-height: calc(200% - 48px);
-    contain: unset;
-    border-radius: calc(1.1rem * (1 + var(--dock-border-radius)));
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
-    background-color: var(--background-modifier-selected);
-    border-top: var(--background-modifier-accent-border);
-    border-right: var(--background-modifier-accent-border);
-    -webkit-backdrop-filter: blur(var(--dock-blur-calc));
-    backdrop-filter: blur(var(--dock-blur-calc));
- }
-
-#app-mount .scroller_fea3ef {
-    contain: unset;
-    border-radius: none;
-    box-shadow: none;
-    background-color: transparent;
-    border-top: none;
-    border-right: none;
-    -webkit-backdrop-filter: none;
-    backdrop-filter: none;
-}
-
  .footer_f8ec41 {
     width: 0px;
     padding-bottom: 0px;
     padding-top: 0px;
     position: relative;
     background: transparent;
-    margin-top: -8px;
- }
- */
+    margin-top: 0px;
+}
+
+.tree_fea3ef {
+  justify-content: center;
+  align-self: center;
+  height: -moz-fit-content;
+  height: fit-content;
+  max-height: calc(100% - 48px);
+}
+
+#app-mount .scroller_fea3ef {
+  contain: unset;
+  border-radius: calc(1.1rem * (1 + var(--dock-border-radius))) calc(1.1rem * (1 + var(--dock-border-radius))) 0px 0px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+  background-color: var(--background-modifier-selected);
+  border-top: var(--background-modifier-accent-border);
+  border-right: var(--background-modifier-accent-border);
+  -webkit-backdrop-filter: blur(var(--dock-blur-calc));
+          backdrop-filter: blur(var(--dock-blur-calc));
+}
+
+.listItem_c96c45:has(.fixedDiscoveryIcon_fea3ef) {
+    border-radius: 0px 0px calc(1.1rem * (1 + var(--dock-border-radius))) calc(1.1rem * (1 + var(--dock-border-radius)));
+    background-color: var(--background-modifier-selected);
+    border-right: var(--background-modifier-accent-border);
+}
+
+.listItem_c96c45:has(.fixedDiscoveryIcon_fea3ef):before {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 12px;
+    right: 0;
+    height: 2px;
+    width: 36px;
+    z-index: 2;
+    background: var(--background-modifier-accent) !important;
+}
 /*
 .tree_fea3ef {
   justify-content: center;
