@@ -14,7 +14,8 @@
         .body_b8cc6d,
         .body_ad5fac,
         .body_c4213b,
-        .body_a972fe {
+        .body_a972fe,
+		.footer_b8cc6d {
             background: rgba(0 0 0/.5);
         }
     }
@@ -32,7 +33,8 @@
         .body_b8cc6d,
         .body_ad5fac,
         .body_c4213b,
-        .body_a972fe {
+        .body_a972fe,
+		.footer_b8cc6d {
             background: rgba(255 255 255/.5);
         }
     }
@@ -89,7 +91,6 @@
         margin: 0 4px 0;
         border-radius: 0px 0px 8px 8px;
         box-shadow: var(--elevation-low);
-		background: rgba(0 0 0/.5);
 		margin-top: -8px;
     }
 
@@ -196,14 +197,16 @@
 	border-top: none !important;
 }
 
-.statusBubble_d0a252,
-.statusBubbleOuter_d0a252:before,
-.statusBubbleOuter_d0a252:after {
+
+
+.statusBubble_af9888,
+.statusBubbleOuter_af9888:before,
+.statusBubbleOuter_af9888:after {
 	background: rgba(0 0 0 / .5);
 	box-shadow: var(--elevation-low);
 }
 
-.statusBubbleOuter_d0a252:before {
+.statusBubbleOuter_af9888:before {
     content: "";
     position: absolute;
     top: -11px;
@@ -217,193 +220,6 @@
 	border-bottom: none !important;
 }
 
-.statusBubbleOuter_d0a252 {
+.statusBubbleOuter_af9888 {
 	background: transparent;
 }
-
-
-/*
-.theme-dark .inner_c69a7b,
-.theme-dark .accountProfileCard_b69b77 {
-  --profile-body-background-color: rgba(0, 0, 0, 0.45);
-}
-
-.theme-light .inner_c69a7b,
-.theme-light .accountProfileCard_b69b77 {
-  --profile-body-background-color: rgba(255, 255, 255, 0.65);
-}
-
-.bannerSVGWrapper_b32cc2:not(:has([style*=image])) {
-  overflow: visible;
-  contain: none;
-}
-.bannerSVGWrapper_b32cc2:not(:has([style*=image])) foreignObject {
-  -webkit-mask: none;
-          mask: none;
-}
-
-.bannerSVGWrapper_b32cc2:not(:has([style*=image])) [style*=background-color] {
-  height: 100vh;
-}
-
-.inner_c69a7b:not(:has(svg div[style*=image])) .avatarWrapper_f89da9 {
-  background: var(--profile-body-background-color);
-  box-shadow: var(--elevation-medium);
-}
-.inner_c69a7b:not(:has(svg div[style*=image])) .avatarHoverTarget_f89da9,
-.inner_c69a7b:not(:has(svg div[style*=image])) .avatarHint_f89da9 {
-  padding: 6px;
-}
-.inner_c69a7b:not(:has(svg div[style*=image])) .avatar_ec3b75,
-.inner_c69a7b:not(:has(svg div[style*=image])) .avatar_ec3b75 {
-  background: var(--profile-body-background-color);
-  box-shadow: var(--elevation-medium);
-  padding: 6px;
-}
-.inner_c69a7b .profileBadges_f89da9:not(.containerWithContent_b64375) {
-  padding-top: 4px;
-  padding-bottom: 4px;
-}
-.inner_c69a7b .messageInputContainer_f2c0a8 {
-  border: none;
-}
-
-.wrapper_c51b4e.listAvatar_d2d6cb{
-  background: none !important;
-  box-shadow: none !important;
-}
-
-.containerWithContent_b64375 {
-  box-shadow: var(--elevation-medium);
-  z-index: 1;
-}
-
-.overlayBackground_c69a7b {
-  margin: 28px 8px 8px;
-  box-shadow: var(--elevation-medium);
-  z-index: 1;
-}
-
-.tabBarContainer_b9fccc {
-    border-bottom: none !important;
-    margin: 20px 0 0 !important;
-}
-
-.theme-dark .root_f9a4c9 .tabBarContainer_b9fccc {
-	background: transparent;
-    box-shadow: none;
-}
-
-.tabBar_b9fccc.top_a0 {
-    border-bottom: 1px solid var(--profile-body-divider-color) !important;
-}
-
-.tabBar_b9fccc.top_a0 .selected_a0.themed_a0.item_a0,
-.tabBar_b9fccc.top_a0:hover .themed_a0.item_a0 {
-    border-bottom-color: transparent;
-}
-
-.userProfileModalInner_c69a7b:not(:has(div[style*=image])) :where(
-    .wrapper_c51b4e:not(.listAvatar_d2d6cb),
-    .avatar_ec3b75
-) {
-    background: var(--profile-body-background-color);
-    box-shadow: var(--elevation-medium);
-    padding: 6px;
-}
-
-.userProfileModalInner_c69a7b:not(:has(div[style*=image])) :where(
-    .avatarHoverTarget_f89da9,
-    .avatarHint_f89da9,
-    .avatar_ec3b75
-) {
-    padding: 6px;
-}
-
-.accountProfileCard_b69b77:not(:has(div[style*=image])) {
-  background: none;
-  box-shadow: var(--elevation-medium);
-}
-.accountProfileCard_b69b77:not(:has(div[style*=image])) .avatar_b69b77 {
-  top: 16px;
-  left: 16px;
-  padding: 6px;
-  background-color: var(--profile-body-background-color);
-  box-shadow: var(--elevation-medium);
-}
-.accountProfileCard_b69b77 .bannerSVGWrapper_b32cc2 {
-    position: absolute;
-    min-width: unset !important;
-    width: 100%;
-}
-.accountProfileCard_b69b77 .userInfo_b69b77 {
-  height: 116px;
-  align-items: flex-end;
-  position: relative;
-}
-.accountProfileCard_b69b77:has(div[style*=image]) .userInfo_b69b77 {
-  margin-top: 60px;
-}
-.accountProfileCard_b69b77:has(div[style*=image]) .avatar_b69b77 {
-  top: 22px;
-}
-.accountProfileCard_b69b77:has(div[style*=image]) .userInfo_b69b77 > button {
-  align-self: center;
-}
-.accountProfileCard_b69b77 .profileCardUsernameRow_b69b77,
-.accountProfileCard_b69b77 .containerWithContent_b64375 {
-  background-color: var(--profile-body-background-color) !important;
-  box-shadow: var(--elevation-medium);
-  border-radius: 8px;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 4px;
-}
-.accountProfileCard_b69b77 .badgeList_b69b77:not(:has(.containerWithContent_b64375)) {
-  background: none;
-}
-.accountProfileCard_b69b77 .userTag_b69b77 {
-  margin-bottom: 0;
-  padding-left: 4px;
-}
-.accountProfileCard_b69b77 .profileCardUsernameRow_b69b77 .overflowMenuButton_b69b77 {
-  height: 24px;
-}
-.accountProfileCard_b69b77 .containerWithContent_b64375 {
-  margin-top: 4px;
-}
-.accountProfileCard_b69b77 .background_b69b77 {
-  box-shadow: var(--elevation-medium);
-  position: relative;
-  background-color: var(--profile-body-background-color);
-}
-.accountProfileCard_b69b77 .fieldList_b69b77 {
-  background: none;
-}
-
-.bannerNitroUpsell_ab876d {
-	display: none;
-}
-
-.userProfileInnerThemedNonPremium_c69a7b :where(
-	.avatarUploaderNormal_ab876d,
-) {
-    background: var(--profile-body-background-color);
-    box-shadow: var(--elevation-medium);
-	border-radius: 50px;
-	padding: 6px
-}
-
-.userProfileInnerThemedNonPremium_c69a7b :where(
-	.hoverIconWrapper_ab876d
-) {
-    margin-right: 8px ;
-    margin-bottom: 6px;
-}
-
-.userProfileInnerThemedNonPremium_c69a7b :where(
-	.status_ab876d
-) {
-	display: none;
-}
-*/
