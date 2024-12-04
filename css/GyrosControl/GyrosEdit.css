@@ -1264,3 +1264,17 @@ html:has(.top_a0 .brand_a0.selected_a0.item_a0[aria-label^='Hub studenti']) .con
 .tutorial_f1c3d9 {
 	margin-top: 40px;
 }
+
+
+/* [✔] 🠗 allowed roles & members list in channel 🠗 */
+.members_f1044f .role_d70de6 {
+    display: inline-flex;
+    align-items: center;
+    width: auto;
+    padding: 4px 8px;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--interactive-active);
+    background-color: var(--background-modifier-hover);;
+    border-radius: 4px;
+}
