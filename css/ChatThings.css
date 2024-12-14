@@ -121,3 +121,18 @@
     border: calc(1px * var(--chat-bubble)) solid var(--chat-bubble-border-color, var(--background-primary-border-color));
     box-shadow: var(--chat-bubble-box-shadow-h-offset) calc(var(--chat-bubble-box-shadow-v-offset) * var(--chat-bubble)) calc(var(--chat-bubble-box-shadow-blur) * var(--chat-bubble)) hsla(var(--chat-bubble-box-shadow-color-h), var(--chat-bubble-box-shadow-color-s), var(--chat-bubble-box-shadow-color-l), calc(var(--chat-bubble-box-shadow-color-a) * var(--chat-bubble)));
 }
+
+/* Revert Reaction  Size */
+.reaction_ec6b19 .emoji,
+.icon_ec6b19 {
+    width: 1rem;
+    height: 1rem;
+}
+
+.reactionBtn_ec6b19.reactionBtn_ec6b19 {
+    width: 1rem;
+    height: 1rem;
+    &.forceShow_ec6b19 {
+    padding: .25rem .375rem;
+    }
+}
