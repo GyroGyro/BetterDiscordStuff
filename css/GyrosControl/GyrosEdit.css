@@ -1278,3 +1278,10 @@ html:has(.top_a0 .brand_a0.selected_a0.item_a0[aria-label^='Hub studenti']) .con
     background-color: var(--background-modifier-hover);;
     border-radius: 4px;
 }
+
+
+/* [✔] 🠗 removes commands button from bot's dms 🠗 */
+.form_a7d72e .entryPointButtonContainer_a7d72e {
+    display: none;
+}
+
