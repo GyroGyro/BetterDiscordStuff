@@ -665,13 +665,13 @@ html.theme-dark #app-mount .tooltipPointer_b6c360 {
           backdrop-filter: blur(var(--dock-blur-calc));
 }
 
-.listItem_c96c45:has(.fixedDiscoveryIcon_fea3ef) {
+.listItem_c96c45:has(.discoveryIcon_fea3ef) {
     border-radius: 0px 0px calc(1.1rem * (1 + var(--dock-border-radius))) calc(1.1rem * (1 + var(--dock-border-radius)));
     background-color: var(--background-modifier-selected);
     border-right: var(--background-modifier-accent-border);
 }
 
-.listItem_c96c45:has(.fixedDiscoveryIcon_fea3ef):before {
+.listItem_c96c45:has(.discoveryIcon_fea3ef):before {
     content: "";
     position: absolute;
     display: block;
